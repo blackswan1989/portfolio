@@ -1,0 +1,81 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  width: 50px;
+  /* 아래 avatar사진의 테두리(boder)를 원형으로 바꿔주는 태그 */
+  border-radius: 38%;
+}
+
+/* 클래스 선택시 참조 : friend__avatar와 g-avatar를 붙여쓰면 동시에 적용한다는 선택이고 한칸을 띄운채 .g-avartar를 써주면 friend__avatar안에 있는 g-avatar를 선택하게 된다. */
+.friend__avatar.g-avatar {
+  width: 70px;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+/* 아래처럼 해당 클래스를 display:block을 설정함으로써, friend__content안의 friend__name을 항상 위에 가게 하며 bottom-text를 밑으로 밀어주게 된다. */
+.friend__content .friend__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* 아래 코드는 이름 아래 부분의 색상이 검정색이 아닌 옅은 회색으로 보이는 부분을 구현하기 위함. index에는 friend__bottom이 있으나, bottom클래스가 없고 status만 있는 파일들을 위하여 아래처럼 클래스를 지정함. */
+.friend__content .friend__status,
+.friend__content .friend__bottom-text {
+  opacity: 0.5;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 12px;
+}
+
+.friend__content .friend__status {
+  font-size: 12px;
+}
+
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  border: 1.5px solid #3ec56d;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.friend__now-listening span {
+  opacity: 0.6;
+}
+
+.friend__now-listening i {
+  font-size: 10px;
+  color: #33a059;
+  padding-left: 5px;
+}
+
+.friend__add-btn {
+  display: flex;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 5px;
+  font-size: 13px;
+}

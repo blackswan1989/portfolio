@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px; /*1-status-bar 고정을 위한 마진 탑 추가*/
+}
+
+.header .header__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer; /* 마우스를 갖다대었을 때, 커서를 바꿔주는 태그 */
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}

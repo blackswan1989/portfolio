@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/4a2f8e6471.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 아래 reset css를 전체 적용하여 모든 스타일값을 0로 만든 후 시작함. 
+    reset css외에도 normalize css 를 사용하여 적용할 수도 있다. -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chats | Kakao Clone</title>
+  </head>
+  <body>
+    <!-- status-bar 부모 안의 status-bar__##를 입력하여 코드 관계를 먼저 정리해준다. 즉 status-bar안에 status-bar__column이 들어가고 한쪽에는 __clock, 다른쪽 __column에는 아이콘들 volume, wifi등이 들어감을 알 수 있다.  -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:53</span>
+      </div>
+      <!-- 아이콘은 https://fontawesome.com/ 이곳에서 free 아이콘들을 사용하였다. -->
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <!-- 예시) div.class.header__header-column*2 코드 생성 단축입력! -->
+
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="friends__friend friend friend--lg">
+              <div class="friend__column">
+                <!-- m-avartar는 g-avatar 대비 중간크기 아바타로 네이밍 -->
+                <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Kristen Stewart
+                  </span>
+                  <span class="friend__bottom-text">
+                    Going home!
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  Yesterday
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index_chat.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small ! </span>
+    </div>
+    <script src="javascript/clock.js"></script>
+  </body>
+</html>

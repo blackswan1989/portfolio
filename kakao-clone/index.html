@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KakaoTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">
+        Welcome to KakaoTalk Clone
+      </h1>
+      <p class="welcome-header__text">
+        If you have a Kakao Account, <br />log in with your email phine number
+      </p>
+    </header>
+
+    <!-- form의 method방식에서 "get"과 "post"가 있는데 post는 서버에 전송하는 것을 의미한다. get은 url에 그대로 노출되지만 포트폴리오등을 위해 사용 -->
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find KakaoTalk Account or Password</a>
+    </form>
+    <script
+      src="http://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small ! </span>
+    </div>
+    <script src="javascript/clock.js"></script>
+  </body>
+</html>

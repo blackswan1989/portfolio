@@ -1,0 +1,15 @@
+/* Plus friend를 중심으로 border를 주고, 그 border 기준으로 상하&좌우 margin값을 설정해줌으로써 여러 클래스를 사용할필요가 없어졌다. */
+.friends .friends__plus {
+  padding: 20px 0px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  margin: 20px 0px;
+}
+
+/* Plus friend title부분과 Friends 14 title부분을 동시에 똑같이 설정해줌. */
+.friends__plus .friends__title,
+.friends__list .friends__title {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}

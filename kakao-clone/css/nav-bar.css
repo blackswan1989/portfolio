@@ -1,0 +1,55 @@
+.nav {
+  background-color: #fcfcfc;
+  position: fixed; /* position:fixed를 사용하려면 항상 width값을 설정해주어야 한다! 왜냐하면 기존 다른것들에서부터 떼어내서 다른 레이어에 올려놔야 하기 때문이다. */
+  width: 100%;
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 20px;
+}
+
+/* https://www.zerocho.com/category/CSS/post/5864f3b59f1dc000182d3ea1  position 참조 사이트 */
+.nav .nav__list-link {
+  position: relative;
+}
+/* badge는 body에 대해서 position:absolute를 가지기 때문에, 위의 list-link라는 부모요소에 realtive요소를 지정해야 아래의 badge를 원하는 방향으로 구현 할 수 있다. message icon에 대해서 positioning되어야 하기 때문이다.  */
+.nav .nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: showNavBar 0.5s ease-in-out forwards;
+  animation-delay: 0.05s;
+  /* animation-delay는 첫번째 에니메이션(@keyframes)이 실행 된 후 시작되도록, 0.05초의 delay를 주는 것. (@keyframes와 같은 내용으로 첫번째 코드처럼 transform: translateY(80px);을 주어야 한다) 필요한 곳에 활용 가능. */
+}
