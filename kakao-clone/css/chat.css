@@ -8,11 +8,8 @@
     0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
-/* body는 기본 padding값을 가지고 있기 때문에 background를 적용할 때 문제가 된다. padding값을 0로 먼저 선언해준다. */
-
-/* header와 status-bar에 다시 padding을 적용 */
 .chats-body .header,
-.chats-body .status-bar {
+.chats-body {
   padding: 5px 20px;
 }
 
@@ -22,10 +19,6 @@
   background-image: url("../images/chatBg.png");
   min-height: 110vh;
 }
-/* 위의 100vh는 화면을 꽉 채우게 해준다? */
-/* .chat부터 여기까지 background image를 넣기 위한 코드 */
-
-/********* #8.1~ animations 추가 *********/
 
 /* 아래는 채팅 입력칸(send message)부분을 고정+꾸며주는 코드 */
 .chat__write--container {
@@ -118,7 +111,6 @@
   animation: float 3s linear infinite forwards;
 }
 
-/* 아래 코드는 sent message를 클릭했을때 아이콘들을 숨겨주며 opacity는        animation을 사용할 수 있게 해준다. */
 .chat__write:focus ~ .chat__icon {
   opacity: 0;
 }
@@ -133,7 +125,6 @@
   font-size: 22px;
 }
 
-/* 아이콘들끼리 사이를 띄워주기 위해 추가 함. */
 .fa-smile-wink {
   padding-right: 9.9px;
 }
@@ -183,7 +174,6 @@
   width: 90%;
 }
 
-/* incoming message와 sent message간에 space-between을 설정함으로써 메세지가 짧더라도 서로 마주보는 구도로 만들기 위하여 별도로 추가하였음. */
 .incoming-message,
 .sent-message {
   justify-content: space-between;
@@ -229,7 +219,7 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0;
-  /* 아래 코드는 그라데이션을 준다. 기본값은 위에서 아래로 그라데이션을 주는데, ()안에 to right를 선언하면 왼쪽에서 오른쪽 방향으로 그라데이션을 주게 된다. */
+
   background-image: linear-gradient(to right, #ff9966, #ff5e62);
 }
 

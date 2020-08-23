@@ -1,5 +1,5 @@
 const clockContainer = document.querySelector(".status-bar"),
-  clockTitle = clockContainer.querySelector(".status-bar__clock");
+  clockTitle = clockContainer.querySelector(".js-clock");
 
 function getTime() {
   const date = new Date();
