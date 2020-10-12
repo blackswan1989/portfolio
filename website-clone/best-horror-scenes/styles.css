@@ -66,6 +66,7 @@ img {
   font-size: 1.5rem;
   margin: 0;
 }
+
 .header__text:last-child {
   margin-top: 30px;
   font-size: 0.8rem;
@@ -80,22 +81,22 @@ img {
   z-index: 1;
 }
 
-.main-container {
-  padding: 50px;
-}
 
 .videos {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .1) 10%, transparent, transparent, transparent, transparent) #e7473c;
+  height: 50vh;
   margin-bottom: 150px;
   font-size: 1vw;
-  padding: 0px 10px;
+  padding-top: 20px;
 }
 
 .videos__title {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 10px 0px;
+  margin: 20px 40px;
 }
+
 .videos__title div:nth-child(2) {
   text-align: end;
   width: 40%;
