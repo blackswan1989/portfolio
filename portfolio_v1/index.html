@@ -6,12 +6,46 @@
   <title>HJ's Portfolio</title>
   <meta name="description" content="Portfolio for frontend developer HJ">
   <meta name="author" content="HJ">
+
   <link rel="stylesheet", href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU", crossorigin="anonymous")/>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
   <link rel="icon" href="images/logo-remove.png" type="image/x-icon">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/main.js"></script>
 </head>
 <body>
-  <script src="main.js"></script>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <img class="navbar__logo--img" src="images/logo-remove.png" alt="logo">
+      <a href="#">HJ</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item">Home</li>
+      <li class="navbar__menu__item">About</li>
+      <li class="navbar__menu__item">Skills</li>
+      <li class="navbar__menu__item">My work</li>
+      <li class="navbar__menu__item">Contact</li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <img class="home__avatar" src="images/HJ.jpg" alt="profile photo">
+    <h1 class="home__title">Hello, <br>I'm Frontend Developer</h1>
+    <h2 class="home__discription">blackswan1989@naver.com 자신을 소개하는 간략한 글</h2>
+    <button class="home__contact">Contact Me</button>
+  </section>
+
+  <!-- About -->
+  <section id="about"></section>
+
+  <!-- Skills -->
+  <section id="skills"></section>
+
+  <section id="work"></section>
+  <section id="testimonials"></section>
+  <section id="contact"></section>
 </body>
 </html>
