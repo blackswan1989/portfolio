@@ -1,11 +1,25 @@
-# PORTFOLIO 2020
+### PORTFOLIO 2020
 
-hello
+🥳🥳 welcome HJ's portfolio page!
+> github: https://github.com/blackswan1989/portfolio/portfolio_v1
 
-1# Kaka Clone - html + css + clock JS (v2, v3)
+### Projects URL
 
-2# Web Sites - html + css + javascript
+1# 📺 YouTube Clone - frontend + backend (nodeJS, Pug, Express...)
+> github: https://github.com/blackswan1989/youtube_clone
+> URL: https://quiet-waters-83386.herokuapp.com/
 
-3# Momento Crome extention - html + css + Vanilla javascript
+2# 🖥 Momento Crome extention - html + css + Vanilla javascript
+> URL: 
 
-4# YouTube Clone - frontend + backend (nodeJS, Pug, Express...)
+3# 🌆 Hot Web Sites - html + css + javascript
+> github: https://github.com/blackswan1989/portfolio/tree/master/website-clone
+> URL: https://blackswan1989.github.io/portfolio/website-clone/best-horror-scenes/
+
+
+4# 📱 KakaoTalk Clone - html + css + javascript
+> github: https://github.com/blackswan1989/portfolio/tree/master/kakao-clone
+> 
+
+
+
