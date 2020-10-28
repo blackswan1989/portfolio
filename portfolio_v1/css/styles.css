@@ -2,12 +2,56 @@
 
 
 :root {
-  /**/
+  /* color, font-size, size */
+  --title-black: rgb(31, 31, 31);
+  --title-white: rgb(233, 233, 233);
+
+
+  --font-large : 48px;
+  --font-medium : 28px
+  --font-regular : 18px;
+  --font-small : 16px;
+  --font-micro: 14px;
+
+  --weight-bold : 700;
+  --weight-semi-bold : 600;
+  --weight-regular : 400;
+
 }
 
 *{
   box-sizing: border-box;
 }
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--title-black);
+  margin: 16px, 0px;
+}
+
+h2{
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+  color: var(--title-black);
+  margin: 8px, 0px;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--title-black);
+  margin: 8px, 0px; 
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--title-black);
+  margin: 4px, 0px; 
+}
+
 
 body {
   font-family: 'Open Sans', sans-serif; 
