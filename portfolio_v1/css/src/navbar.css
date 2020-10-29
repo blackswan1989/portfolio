@@ -33,6 +33,8 @@ cursor: pointer;
 }
 
 .navbar__menu__item{
+  display: flex;
+  align-items: center;
   padding: 10px 10px;
   color: var(--title-white);
   font-weight: var(--weight-bold);
@@ -40,7 +42,16 @@ cursor: pointer;
 }
 
 
-.navbar__logo--img {
-  width: 50px;
+.navbar__logo--img, 
+.navbar__menu__item img {
+  width: 30px;
+  margin-right: 10px;
   }
 
+  .navbar__menu__item:nth-child(3) img {
+    width: 25px;
+  }
+
+  .navbar__menu__item:nth-child(5) img {
+    width: 18px;
+  }
