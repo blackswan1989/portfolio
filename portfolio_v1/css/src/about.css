@@ -1,5 +1,5 @@
 #about {
-  margin: 20px 0px;
+  margin: 80px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,18 +9,18 @@
 }
 
 #about h1 {
-  margin: 30px 0px;
+  margin: 40px 0px;
 }
 
 #about p {
-  width: 80%;
+  width: 70%;
 }
 
 .about__majors {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin: 50px 0px;
+  margin: 80px 0px;
   width: 90%;
 
 }
@@ -31,20 +31,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 180px;
 }
 
 .major__icon{
   border: 1px solid var(--border-blue);
   color: var(--border-blue);
   border-radius: 50%;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   text-align: center;
 }
 
 .major__icon i {
-  font-size: 3.5rem;
-  line-height: 130px;
+  font-size: 4rem;
+  line-height: 150px;
 }
 
 .major__title{
