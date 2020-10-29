@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "src/navbar.css";
 @import "src/home.css";
+@import "src/about.css";
 @import "src/navbar.css";
 @import "src/skills.css";
 @import "src/work.css";
@@ -14,9 +15,10 @@
   /* color, font-size, size */
   --title-black: rgb(31, 31, 31);
   --title-white: rgb(233, 233, 233);
+  --border-blue: #56E0FB;
 
   --font-large : 48px;
-  --font-medium : 28px
+  --font-medium : 28px;
   --font-regular : 18px;
   --font-small : 16px;
   --font-micro: 14px;
