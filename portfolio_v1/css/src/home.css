@@ -1,6 +1,48 @@
+#home{
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightblue;
+}
+
 .home__avatar {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-top: 20px;
+}
+
+.home__title{
+  margin: 20px 0px;
+  text-align: center;
+  color: var(--title-white);
+  font-weight: var(--weight-semi-bold);
+}
+
+.home__discription{
+  color: var(--title-white);
+  font-weight: var(--weight-semi-bold);
+}
+
+.home__contact{
+  color: var(--title-white);
+  font-weight: var(--weight-semi-bold);
+}
+
+.home__contact{
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+#home button {
+  border: none;
+  outline: none;
+  background: none;
+  border: 1px solid var(--title-white);
+  border-radius: 5px;
+  padding: 7px 10px;
+  text-transform: uppercase;
 }
 

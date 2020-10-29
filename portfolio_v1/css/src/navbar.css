@@ -1,3 +1,42 @@
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: lightblue;
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
+.navbar__logo {
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.navbar__logo a{
+  text-decoration: none;
+  color: var(--title-white);
+  font-weight: var(--weight-bold);
+}
+
+.navbar__menu{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.navbar__menu__item{
+  padding: 10px 10px;
+  color: var(--title-white);
+  font-weight: var(--weight-semi-bold);
+  cursor: pointer;
+}
+
+
 .navbar__logo--img {
   width: 50px;
   }
+
