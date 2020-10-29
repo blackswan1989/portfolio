@@ -4,10 +4,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 10px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   position: fixed;
   width: 100%;
   top:0;
+  background-image: url(../images/bgLogo.gif);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1980px
 }
 
 .navbar__logo {
@@ -31,7 +35,7 @@ cursor: pointer;
 .navbar__menu__item{
   padding: 10px 10px;
   color: var(--title-white);
-  font-weight: var(--weight-semi-bold);
+  font-weight: var(--weight-bold);
   cursor: pointer;
 }
 

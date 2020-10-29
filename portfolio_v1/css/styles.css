@@ -14,8 +14,8 @@
 :root {
   /* color, font-size, size */
   --title-black: rgb(31, 31, 31);
-  --title-white: rgb(233, 233, 233);
-  --border-blue: #56E0FB;
+  --title-white: rgb(251, 251, 251);
+  --border-blue: #4CAEE1;
 
   --font-large : 48px;
   --font-medium : 28px;
