@@ -16,6 +16,9 @@
   --title-black: rgb(31, 31, 31);
   --title-white: rgb(251, 251, 251);
   --border-black: rgb(29, 29, 29);
+  --hover-pink: #FD7ED0;
+  --hover-blue: #4AEEFC;
+  --value-yellow: #FFD33C;
 
   --font-large : 48px;
   --font-medium : 28px;

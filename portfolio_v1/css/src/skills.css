@@ -86,7 +86,7 @@
 .skill__value {
   height: 10px;
   border-radius: 3px;
-  background-color:#FFD33C;
+  background-color:var(--value-yellow);
 }
 
 .skill__value:nth-child(1) {
