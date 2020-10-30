@@ -89,24 +89,19 @@
   background-color:var(--value-yellow);
 }
 
-.skill__value__html {
-  width: 90%;
+.skill:nth-child(1) .skill__value {
   animation: html 1.5s ease;
 }
 .skill:nth-child(2) .skill__value{
-  width: 85%;
   animation: css 1.5s ease;
 }
 .skill:nth-child(3) .skill__value {
-  width: 70%;
   animation: javascript 1.5s ease;
 }
 .skill:nth-child(4) .skill__value {
-  width: 50%;
   animation: react 1.5s ease;
 }
 .skill:nth-child(5) .skill__value {
-  width: 40%;
   animation: nodejs 1.5s ease;
 }
 
@@ -147,7 +142,7 @@
     width: 10%;
   }
   to {
-    width: 40%
+    width: 50%
   }
 }
 
