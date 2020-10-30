@@ -36,11 +36,12 @@
 .home__contact{
   color: var(--title-white);
   font-weight: var(--weight-semi-bold);
-}
-
-.home__contact{
   margin: 50px 0px;
   cursor: pointer;
+}
+
+.home__contact:active{
+  transform: scale(0.95);
 }
 
 #home button {

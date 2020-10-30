@@ -34,7 +34,6 @@
   align-items: center;
   justify-content: space-around;
   margin: 20px 0px;
-  z-index: -1;
 }
 
 .categories__btn{
@@ -47,6 +46,7 @@
   position: relative;
   transition-duration: 0.5s;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 /* .categories__btn:nth-child(1), 
@@ -57,6 +57,9 @@
 
 .categories__btn:hover{
   background-color: var(--hover-blue);
+}
+.categories__btn:active {
+  transform: scale(0.9);
 }
 
 .category__count{

@@ -11,7 +11,8 @@
   background-image: url(../images/bgLogo.gif);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 1980px
+  background-size: 1980px;
+  z-index: 999;
 }
 
 .navbar__logo {
@@ -49,20 +50,20 @@ align-items: center;
   margin-right: 10px;
   }
 
-  .navbar__menu__item:nth-child(3) img {
-    width: 25px;
-  }
+.navbar__menu__item:nth-child(3) img {
+  width: 25px;
+}
 
-  .navbar__menu__item:nth-child(5) img {
-    width: 18px;
-  }
+.navbar__menu__item:nth-child(5) img {
+  width: 18px;
+}
 
-  .navbar__menu__item:hover{
-    background-color: var(--value-yellow);
-    border-radius: 20px;
-    color: var(--title-black);
-  }
+.navbar__menu__item:hover{
+  background-color: var(--value-yellow);
+  border-radius: 20px;
+  color: var(--title-black);
+}
 
-  .navbar__menu__item:active {
-    transform: scale(0.9);
-  }
+.navbar__menu__item:active {
+  transform: scale(0.9);
+}
