@@ -3,8 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
-  /* background-color: lightblue; */
+  padding: 3px 10px;
   position: fixed;
   width: 100%;
   top:0;
@@ -35,7 +34,7 @@ align-items: center;
 .navbar__menu__item{
   display: flex;
   align-items: center;
-  padding: 10px 12px;
+  padding: 5px 10px;
   color: var(--title-white);
   font-weight: var(--weight-bold);
   cursor: pointer;

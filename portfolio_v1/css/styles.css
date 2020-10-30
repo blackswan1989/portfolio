@@ -17,7 +17,7 @@
   --title-white: rgb(251, 251, 251);
   --border-black: rgb(29, 29, 29);
   --hover-pink: #FD7ED0;
-  --hover-blue: #4AEEFC;
+  --hover-blue: #05BFC3;
   --value-yellow: #FFD33C;
 
   --font-large : 48px;
@@ -61,8 +61,11 @@ p {
   margin: 4px, 0px; 
 }
 
-
 body {
   font-family: 'Open Sans', sans-serif;
   cursor: default; 
+}
+
+.sections{
+  margin: auto;
 }
