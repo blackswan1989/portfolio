@@ -89,18 +89,77 @@
   background-color:var(--value-yellow);
 }
 
-.skill__value:nth-child(1) {
+.skill__value__html {
   width: 90%;
+  animation: html 1.5s ease;
 }
 .skill:nth-child(2) .skill__value{
   width: 85%;
+  animation: css 1.5s ease;
 }
 .skill:nth-child(3) .skill__value {
   width: 70%;
+  animation: javascript 1.5s ease;
 }
 .skill:nth-child(4) .skill__value {
   width: 50%;
+  animation: react 1.5s ease;
 }
 .skill:nth-child(5) .skill__value {
-  width: 50%;
+  width: 40%;
+  animation: nodejs 1.5s ease;
+}
+
+@keyframes html {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 90%
+  }
+}
+@keyframes css {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 85%
+  }
+}
+@keyframes javascript {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 70%
+  }
+}
+@keyframes react {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 50%
+  }
+}
+@keyframes nodejs {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 40%
+  }
+}
+
+
+.fa-css3-alt{
+  color: rgb(0, 172, 240);
+}
+
+.fa-js-square{
+  color: var(--value-yellow);
+}
+
+.fa-node-js{
+  color: #7FBD02;
 }
