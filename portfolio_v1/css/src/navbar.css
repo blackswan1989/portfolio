@@ -66,3 +66,15 @@ align-items: center;
 .navbar__menu__item:active {
   transform: scale(0.9);
 }
+
+.navbar__toggle-btn {
+  position: absolute;
+  right: 10px;
+  font-size: 22px;
+  top: 8px;
+  color: var(--title-white);
+  background: none;
+  outline: none;
+  border: none;
+  display: none;
+}

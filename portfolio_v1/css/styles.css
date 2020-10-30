@@ -69,3 +69,29 @@ body {
 .sections{
   margin: auto;
 }
+
+
+@media screen and (max-width: 680px) {
+  .navbar__toggle-btn {
+    display: block;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    background: url(../css/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 300px;
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about__title {
+    min-width: 400px;
+  }
+}
