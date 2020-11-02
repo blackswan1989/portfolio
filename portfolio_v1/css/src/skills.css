@@ -18,6 +18,7 @@
   font-weight: var(--weight-bold);
   height: 150px;
   line-height: 140px;
+  min-width: 350px;
 }
 
 #skills img {
@@ -27,20 +28,23 @@
 }
 
 #skills h2 {
+  margin: 0px 20px;
   color: var(--title-white);
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
+  min-width: 350px;
+  text-align: center;
 }
 
 #skills p {
-  margin: 40px 0px;
+  margin: 40px 20px;
   color: var(--title-white);
   font-size: var(--font-small);
   font-weight: var(--weight-regular);
 }
 
 .skillset {
-  width: 60%;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
