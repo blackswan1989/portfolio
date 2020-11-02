@@ -5,6 +5,7 @@
   justify-content: center;
   margin: 80px 0px;
   color: var(--title-black);
+  padding-top: 40px;
 }
 
 #work h1 {
@@ -94,7 +95,7 @@ opacity: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   /* display: grid;
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(2, 350px); */
@@ -112,6 +113,7 @@ opacity: 0;
   height: 350px;  
   margin: 3px;
   position: relative;
+  flex-grow: 1;
 }
 .project img{
   max-width: 100%;

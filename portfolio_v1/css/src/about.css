@@ -6,6 +6,7 @@
   align-items: center;
   color: var(--title-black);
   font-weight: var(--weight-bold);
+  padding-top: 50px;
 }
 
 #about h1 {
