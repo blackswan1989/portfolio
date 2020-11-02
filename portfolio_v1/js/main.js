@@ -27,7 +27,6 @@ navbarMenu.addEventListener("click", (event) => {
     return;
   }
   console.log(event.target.dataset.link);
-
   scrollIntoView(link);
 });
 
@@ -52,6 +51,6 @@ const homeHeigt = homeOpacity.getBoundingClientRect().height;
 
 window.addEventListener("scroll", () => {
   // 1 - ( scrollY / 1080 ) 
-  console.log(1 - window.scrollY / homeHeigt);
+  // console.log(1 - window.scrollY / homeHeigt);
   homeOpacity.style.opacity = 1.1 - window.scrollY / homeHeigt;
 })
