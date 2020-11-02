@@ -46,6 +46,10 @@
   min-width: 180px;
 }
 
+.major-column__text{
+  text-align: center;
+}
+
 .major__icon{
   border: 1px solid var(--border-black);
   color: var(--border-black);
