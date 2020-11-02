@@ -88,10 +88,50 @@ body {
   .navbar__menu {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 230px;
+    padding-bottom: 10px;
+  }
+  
+  .navbar__menu__item {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
   }
 
   .about__title {
     min-width: 400px;
+  }
+
+  .about__majors {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .major-column{
+    transform: scale(1.3);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+
+  .major-column__text{
+    text-align: center;
+    width: 180px;
+  }
+  .major__description{
+    margin-bottom: 20px;
+  }
+
+  .skillset{
+    width: 90%;
+  }
+
+  .project{
+    flex-grow: 1;
   }
 }
