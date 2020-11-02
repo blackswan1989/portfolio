@@ -44,3 +44,14 @@ function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({behavior: "smooth"});
 }
+
+
+// Make home slowly fade to trasnparent as the window scrolls down.
+const homeOpacity = document.querySelector(".home__container");
+const homeHeigt = homeOpacity.getBoundingClientRect().height;
+
+window.addEventListener("scroll", () => {
+  // 1 - ( scrollY / 1080 ) 
+  console.log(1 - window.scrollY / homeHeigt);
+  homeOpacity.style.opacity = 1.1 - window.scrollY / homeHeigt;
+})

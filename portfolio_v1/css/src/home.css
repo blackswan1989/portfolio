@@ -10,7 +10,9 @@
   height: 1080px;
 }
 
-
+.home__container{
+  text-align: center;
+}
 
 .home__avatar {
   margin: 40px 0px;
@@ -25,6 +27,7 @@
   text-align: center;
   color: var(--title-white);
   font-weight: var(--weight-semi-bold);
+  font-size: 5rem;
 }
 
 .home__discription{
