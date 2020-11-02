@@ -101,6 +101,10 @@ body {
     width: 95%;
   }
 
+  .active {
+    border: none;
+  }
+
   .about__title {
     min-width: 400px;
   }
