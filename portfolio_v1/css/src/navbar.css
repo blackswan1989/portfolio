@@ -51,12 +51,6 @@ align-items: center;
   transition-duration: 0.5s;
 }
 
-.active{
-  border:1px solid  ;
-  border-radius: 10px;
-}
-
-
 .navbar__logo--img, 
 .navbar__menu__item img {
   width: 30px;
