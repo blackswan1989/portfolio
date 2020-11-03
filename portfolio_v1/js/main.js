@@ -85,14 +85,21 @@ workCategories.addEventListener("click", (event) => {
   }
   // console.log(filter);
 
-  // 카테고리 클릭시 에니메이션 발생되도록.
+  // 카테고리 버튼 클릭시 select가 변경되도록.
+  const active = document.querySelector(".categories__btn.selected");
+  active.classList.remove("selected");
+  const target = event.target.nodeName === "BUTTON" ? event.target : event.target.parentNode;
+  target.classList.add("selected");
+
+
+  // 카테고리 버튼 클릭시 projects에 에니메이션 발생되도록.
   workProjects.classList.add("ani-out");
   setTimeout(() => {
     workProjects.classList.remove("ani-out");
   }, 300)
 
   projects.forEach((project) => {
-    console.log(project.dataset.type);
+    // console.log(project.dataset.type);
     //filter가 전부 다(*) 이거나 filter가 dataType과 매치가 되면 필터링 된 것을 보여주어야 하므로 숨겨야될것들을 remove해주고, 매치되지 않으면(else) 보여주지 말아야 하므로 숨겨야될것들을 add해준다.
     if(filter === '*' || filter === project.dataset.type) {
       project.classList.remove("hide")
