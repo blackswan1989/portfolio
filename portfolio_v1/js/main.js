@@ -7,6 +7,11 @@ console.log("Hello, I'm Front-end Developer HJ")
 const navbar = document.querySelector("#navbar");
 const navbarHeigt = navbar.getBoundingClientRect().height;
 
+function scrollIntoView(selector) {
+  const scrollTo = document.querySelector(selector);
+  scrollTo.scrollIntoView({behavior: "smooth"});
+}
+
 window.addEventListener("scroll", () => {
   // console.log(window.scrollY);
   // console.log(`navbar height : ${navbarHeigt}`);
@@ -39,13 +44,9 @@ homeContactMeBtn.addEventListener("click", () => {
   scrollIntoView("#contact");
 })
 
-function scrollIntoView(selector) {
-  const scrollTo = document.querySelector(selector);
-  scrollTo.scrollIntoView({behavior: "smooth"});
-}
-
 
 // Make home slowly fade to trasnparent as the window scrolls down.
+
 const homeOpacity = document.querySelector(".home__container");
 const homeHeigt = homeOpacity.getBoundingClientRect().height;
 
@@ -53,4 +54,19 @@ window.addEventListener("scroll", () => {
   // 1 - ( scrollY / 1080 ) 
   // console.log(1 - window.scrollY / homeHeigt);
   homeOpacity.style.opacity = 1.1 - window.scrollY / homeHeigt;
+})
+
+
+// Show "arrow up" button when scrolling down
+const arrowUp = document.querySelector(".arrow-up")
+
+document.addEventListener("scroll", () => {
+  if(window.scrollY > homeHeigt) {
+    arrowUp.classList.add("display");
+    arrowUp.addEventListener("click", ()=> {
+      scrollIntoView("#home");
+    })
+  } else {
+    arrowUp.classList.remove("display");
+  }
 })
