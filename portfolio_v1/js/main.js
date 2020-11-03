@@ -63,10 +63,11 @@ const arrowUp = document.querySelector(".arrow-up")
 document.addEventListener("scroll", () => {
   if(window.scrollY > homeHeigt) {
     arrowUp.classList.add("display");
-    arrowUp.addEventListener("click", ()=> {
-      scrollIntoView("#home");
-    })
   } else {
     arrowUp.classList.remove("display");
   }
+})
+
+arrowUp.addEventListener("click", ()=> {
+  scrollIntoView("#home");
 })
