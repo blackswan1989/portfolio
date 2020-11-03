@@ -17,7 +17,6 @@
   display: flex;
   height: 100px;
   line-height: 100px;
-  min-width: 330px;
 }
 
 #contact img {
@@ -29,7 +28,6 @@
 #contact:hover img{
   animation: count 0.4s ease-in-out infinite;
   opacity: 1;
-
 }
 
 .contact__title{
@@ -47,7 +45,6 @@
   font-size: var(--font-medium);
   font-weight: var(--weight-bold);
   cursor: text;
-  min-width: 450px;
 }
 
 .contact__email i {
