@@ -29,9 +29,13 @@
 #contact:hover img{
   animation: count 0.4s ease-in-out infinite;
   opacity: 1;
+
 }
 
 .contact__title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--title-white);
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
