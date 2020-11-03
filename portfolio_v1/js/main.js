@@ -3,7 +3,7 @@
 console.log("Hello, I'm Front-end Developer HJ")
 
 
-// navbar transparent when it is on the top
+// 1. navbar transparent when it is on the top
 const navbar = document.querySelector("#navbar");
 const navbarHeigt = navbar.getBoundingClientRect().height;
 
@@ -23,7 +23,7 @@ window.addEventListener("scroll", () => {
 })
 
 
-// Handle scrolling when click on the navbar menu
+// 2. Handle scrolling when click on the navbar menu
 const navbarMenu = document.querySelector(".navbar__menu");
 
 navbarMenu.addEventListener("click", (event) => {
@@ -32,13 +32,21 @@ navbarMenu.addEventListener("click", (event) => {
   if(link == null) {
     return;
   }
-  console.log(event.target.dataset.link);
+  navbarMenu.classList.remove("toggle-active")
+  // console.log(event.target.dataset.link);
   scrollIntoView(link);
 });
 
 
-// Handle click on "contact me" button on home
+// 3. menu button toggle
+const navbarToggleBtn = document.querySelector(".navbar__toggle-btn");
 
+navbarToggleBtn.addEventListener("click", () => {
+  navbarMenu.classList.toggle("toggle-active");
+})
+
+
+// 4. Handle click on "contact me" button on home
 const homeContactMeBtn = document.querySelector(".home__contact");
 
 homeContactMeBtn.addEventListener("click", () => {
@@ -46,7 +54,7 @@ homeContactMeBtn.addEventListener("click", () => {
 })
 
 
-// Make home slowly fade to trasnparent as the window scrolls down.
+// 5. Make home slowly fade to trasnparent as the window scrolls down.
 const homeOpacity = document.querySelector(".home__container");
 const homeHeigt = homeOpacity.getBoundingClientRect().height;
 
@@ -57,7 +65,7 @@ window.addEventListener("scroll", () => {
 })
 
 
-// Show "arrow up" button when scrolling down
+// 6. Show "arrow up" button when scrolling down
 const arrowUp = document.querySelector(".arrow-up")
 
 document.addEventListener("scroll", () => {
@@ -73,7 +81,7 @@ arrowUp.addEventListener("click", ()=> {
 })
 
 
-// Project categories filter
+// 7. Project categories filter & projects
 const workCategories = document.querySelector(".work__categories");
 const workProjects = document.querySelector(".work__projects");
 const projects = document.querySelectorAll(".project"); // 각각의 프로젝트들을 배열로 받아온다.
@@ -108,3 +116,4 @@ workCategories.addEventListener("click", (event) => {
     }
   })
 });
+
