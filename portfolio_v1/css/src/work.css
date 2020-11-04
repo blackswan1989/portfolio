@@ -37,6 +37,7 @@
   align-items: center;
   justify-content: space-around;
   margin: 20px 20px;
+  border: 1px solid var(--title-black);
 }
 
 .categories__btn{
