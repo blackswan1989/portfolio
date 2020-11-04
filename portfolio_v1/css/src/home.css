@@ -1,0 +1,63 @@
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("../images/bgLogo.gif");
+  background-repeat: no-repeat;
+	background-position : top; 
+  background-size: 1980px;
+  height: 1080px;
+}
+
+.home__container{
+  text-align: center;
+}
+
+.home__avatar {
+  margin: 40px 0px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--title-white);
+  box-shadow: 1px 1px 0px 1px var(--title-black);
+}
+
+.home__title{
+  margin: 40px 0px;
+  text-align: center;
+  color: var(--title-white);
+  font-weight: var(--weight-semi-bold);
+  font-size: 5rem;
+  text-shadow: 1px 2px var(--title-black);
+}
+
+.home__discription{
+  margin: 40px 0px;
+  color: var(--title-white);
+  font-weight: var(--weight-semi-bold);
+  text-shadow: 1px 2px var(--title-black);
+}
+
+.home__contact{
+  color: var(--title-white);
+  font-weight: var(--weight-semi-bold);
+  margin: 50px 0px;
+  cursor: pointer;
+  box-shadow: 1px 1px 0px 1px var(--title-white);
+}
+
+.home__contact:active{
+  transform: scale(0.95);
+}
+
+#home button {
+  border: none;
+  outline: none;
+  background: none;
+  border: 1px solid var(--title-white);
+  border-radius: 5px;
+  padding: 10px 14px;
+  text-transform: uppercase;
+}
+

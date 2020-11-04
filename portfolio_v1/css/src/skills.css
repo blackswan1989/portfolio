@@ -1,0 +1,167 @@
+#skills {
+  background:url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  /* background-size: 1980px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0px;
+  color: var(--title-white)
+}
+
+#skills h1 {
+  display: flex;
+  margin: 40px 0px;
+  color: var(--title-white);
+  font-weight: var(--weight-bold);
+  height: 150px;
+  line-height: 140px;
+  /* min-width: 350px; */
+}
+
+#skills img {
+  margin-right: 20px;
+  width: 100px;
+  height: 140px;
+}
+
+#skills h2 {
+  margin: 0px 20px;
+  color: var(--title-white);
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  /* min-width: 350px; */
+  text-align: center;
+}
+
+#skills p {
+  margin: 40px 20px;
+  color: var(--title-white);
+  font-size: var(--font-small);
+  font-weight: var(--weight-regular);
+  width: 60%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.skillset {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skillset__left, .skillset__right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-color: #303030;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.skill{
+  width: 100%;
+  padding: 20px 30px;
+  font-size: var(--font-small);
+}
+
+.skill__description{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+} 
+
+.skill__description i {
+  margin-right: 5px;
+  font-size: 23px;
+}
+
+.skill__bar{
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+  background-color: rgb(29, 29, 29);
+  border-radius: 3px;
+}
+
+.skill__value {
+  height: 10px;
+  border-radius: 3px;
+  background-color:var(--value-yellow);
+}
+
+.skill:nth-child(1) .skill__value {
+  animation: html 1.5s ease;
+}
+.skill:nth-child(2) .skill__value{
+  animation: css 1.5s ease;
+}
+.skill:nth-child(3) .skill__value {
+  animation: javascript 1.5s ease;
+}
+.skill:nth-child(4) .skill__value {
+  animation: react 1.5s ease;
+}
+.skill:nth-child(5) .skill__value {
+  animation: nodejs 1.5s ease;
+}
+
+@keyframes html {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 90%
+  }
+}
+@keyframes css {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 90%
+  }
+}
+@keyframes javascript {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 70%
+  }
+}
+@keyframes react {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 50%
+  }
+}
+@keyframes nodejs {
+  from{
+    width: 10%;
+  }
+  to {
+    width: 50%
+  }
+}
+
+
+.fa-css3-alt{
+  color: rgb(0, 172, 240);
+}
+
+.fa-js-square{
+  color: var(--value-yellow);
+}
+
+.fa-node-js{
+  color: #7FBD02;
+}
