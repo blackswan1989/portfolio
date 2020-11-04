@@ -25,6 +25,7 @@
 .navbar__logo {
 display: flex;
 align-items: center;
+cursor: help;
 }
 
 .navbar__logo a{
@@ -32,6 +33,7 @@ align-items: center;
   color: var(--title-white);
   font-weight: var(--weight-bold);
   margin-right: 30px;
+  cursor: help;
 }
 
 
