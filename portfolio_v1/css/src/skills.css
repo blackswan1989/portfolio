@@ -8,7 +8,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 80px 0px;
-  color: var(--title-white)
+  color: var(--title-white);
+  margin: 80px 0px;
 }
 
 #skills h1 {
@@ -41,13 +42,13 @@
   color: var(--title-white);
   font-size: var(--font-small);
   font-weight: var(--weight-regular);
-  width: 60%;
+  width: 55%;
   text-align: center;
   line-height: 30px;
 }
 
 .skillset {
-  width: 70%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,7 +63,7 @@
   height: 450px;
   background-color: #303030;
   border-radius: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
 }
 
 .skill{

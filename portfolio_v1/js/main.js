@@ -12,7 +12,6 @@ function scrollIntoView(selector) {
   scrollTo.scrollIntoView({behavior: "smooth"});
 }
 
-
 window.addEventListener("scroll", () => {
   // console.log(window.scrollY);
   // console.log(`navbar height : ${navbarHeigt}`);
@@ -62,7 +61,7 @@ const homeHeigt = homeOpacity.getBoundingClientRect().height;
 window.addEventListener("scroll", () => {
   // 1 - ( scrollY / 1080 ) 
   // console.log(1 - window.scrollY / homeHeigt);
-  homeOpacity.style.opacity = 3 - window.scrollY / homeHeigt;
+  homeOpacity.style.opacity = 1.2 - window.scrollY / homeHeigt;
 })
 
 

@@ -51,7 +51,6 @@
   margin-right: 10px;
   cursor: pointer;
   outline: none;
-  border: 1px solid var(--title-black);
 }
 
 /* .categories__btn:nth-child(1), 
