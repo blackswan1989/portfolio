@@ -2,7 +2,7 @@
   background:url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 1980px;
+  /* background-size: 1980px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@
   font-weight: var(--weight-bold);
   height: 150px;
   line-height: 140px;
-  min-width: 350px;
+  /* min-width: 350px; */
 }
 
 #skills img {
@@ -32,7 +32,7 @@
   color: var(--title-white);
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
-  min-width: 350px;
+  /* min-width: 350px; */
   text-align: center;
 }
 
@@ -41,6 +41,9 @@
   color: var(--title-white);
   font-size: var(--font-small);
   font-weight: var(--weight-regular);
+  width: 60%;
+  text-align: center;
+  line-height: 30px;
 }
 
 .skillset {

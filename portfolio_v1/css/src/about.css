@@ -24,7 +24,9 @@
 
 #about p {
   margin: 20px 0px;
-  width: 70%;
+  width: 60%;
+  text-align: center;
+  line-height: 30px;
 }
 
 .about__majors {

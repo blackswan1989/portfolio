@@ -126,6 +126,8 @@ body {
   .navbar__toggle-btn {
     display: block;
     cursor: pointer;
+    margin-right: 8px;
+    margin-top: 4px;  
   }
 
   #navbar {
@@ -163,10 +165,11 @@ body {
 
   .home__title{
     font-size: 55px;
+    padding: 0px 8px;
   }
 
   #about p {
-    width: 85%;
+    width: 80%;
   }
 
   .about__majors {

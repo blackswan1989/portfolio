@@ -6,6 +6,7 @@
   margin: 80px 0px;
   color: var(--title-black);
   padding-top: 40px;
+  transition-duration: 0.5s;
 }
 
 #work h1 {
@@ -15,6 +16,13 @@
   height: 150px;
   line-height: 140px;
   min-width: 365px;
+}
+
+#work h3:hover .fa-lightbulb {
+  color: var(--value-yellow);
+  transform: scale(1.6);
+  margin: 0px 5px;
+  transition: all 0.1s ease;
 }
 
 .work__img {
