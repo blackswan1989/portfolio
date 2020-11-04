@@ -24,7 +24,7 @@
 
 #about p {
   margin: 20px 0px;
-  width: 55%;
+  width: 45%;
   text-align: center;
   line-height: 35px;
 }
@@ -34,7 +34,7 @@
   align-items: flex-start;
   justify-content: center;
   margin: 40px 0px;
-  width: 70%;
+  width: 60%;
 }
 
 .major-column{
