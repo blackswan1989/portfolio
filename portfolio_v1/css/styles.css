@@ -163,9 +163,33 @@ body {
     margin-top:10px;
   }
 
+  #home {
+    background-size: 1024px;
+    height: 560px;
+    margin-top: 40px;
+  }
+
+  .home__container{
+    margin-bottom: 20px;
+  }
+  
+  .home__container,  .home__avatar{
+    transform: scale(0.8);
+  }
+
+  .home__avatar, .home__contact {
+    margin: 0px 0px;
+  }
+
   .home__title{
     font-size: 55px;
     padding: 0px 8px;
+    margin: 10px 0px;
+  }
+
+  
+  #about {
+    margin-top: 20px;
   }
 
   #about p {
@@ -207,6 +231,10 @@ body {
   #skills h1, #work h1{
     text-align: center;
     justify-content: center;
+  }
+
+  #work {
+    margin-top: 20px;
   }
 
   .work__categories {
