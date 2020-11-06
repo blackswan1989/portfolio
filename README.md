@@ -2,8 +2,8 @@
 
 > 🥳🥳 welcome HJ's portfolio page!
 
-- github: https://blackswan1989.github.io/portfolio/portfolio_v1/
-- URL:
+- github: https://github.com/blackswan1989/portfolio
+- URL: https://blackswan1989.github.io/portfolio/portfolio_v1/
 
 ### Projects URL
 
