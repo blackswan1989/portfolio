@@ -1,0 +1,97 @@
+.welcome-header {
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.welcome-header__title {
+  margin-top: 120px;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  color: var(--title-white);
+}
+
+.welcome-header__text {
+  width: 80%;
+  margin: 40px 0px;
+  opacity: 0.7;
+  font-size: var(--font-micro);
+  color: var(--title-white);
+  line-height: 20px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  padding: 15px 10px;
+  border: none;
+  margin-bottom: 5px;
+  font-size: var(--font-small);
+  color: var(--title-white);
+}
+
+/* :not()을 사용하면 해당되는 것을 제외한 곳에만 적용시켜준다. */
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid var(--main-green);
+  transition: border-color 0.3s ease-in-out;
+  color: var(--main-light-green);
+  font-size: var(--font-micro);
+}
+
+#login-form input::placeholder {
+  color: rgba(150, 165, 148, 0.2);
+  background-color:none;
+}
+
+#login-form :nth-child(3) {
+  margin-top: 30px;
+}
+
+#login-form :nth-child(4) {
+  margin-top: 10px;
+}
+
+#login-form input:focus {
+  color: var(--main-light-green);
+  font-size: var(--font-micro);
+}
+
+#login-form input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: var(--main-light-green);
+  font-size: var(--font-micro);
+  transition: 0.3s ease-in-out;
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--main-green);
+  font-size: var(--font-micro);
+  color: var(--title-white);
+  cursor: pointer;
+  padding: 18px 0px;
+  border-radius: 5px;
+}
+
+
+#login-form input[type="submit"]:active {
+  transform: scale(0.9);
+}
+
+
+#login-form a {
+  margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  /* color: inherit; 이 속성은 부모로부터 상속받는 것. */
+  font-size: var(--font-micro);
+  color: var(--title-white);
+  opacity: 0.8;
+}

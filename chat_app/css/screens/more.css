@@ -1,0 +1,141 @@
+.profile{
+  padding: 20px 20px;
+  color: var(--title-white);
+}
+
+.profile__title{
+  font-size: var(--font-small);
+}
+
+.profile__title i {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.profile__title i:active{
+  transform: scale(0.9);
+}
+
+.profile__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-micro);
+  margin-top: 20px;
+  transition-duration: 0.5s;
+}
+
+.profile__container img {
+  border: 2px solid white;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+
+.profile__container img:hover{
+  transform: scale(1.3);
+}
+
+.profile__container--text{
+  line-height: 30px;
+  width: 100%;
+}
+
+.profile__container--text__title{
+  font-size: var(--font-small)
+}
+
+.profile__container--text__subtitle{
+  opacity: 0.5;
+}
+
+.profile__container-icon__edit{
+  font-size: var(--font-small);
+  margin-left: 25px;
+}
+
+
+/* More contents */
+.user-component.more{
+  background-color: var(--title-white);
+  /* height: 100vh; */
+}
+
+.more-contents{
+  width: 100%;
+  padding: 20px 10px;
+  font-size: var(--font-regular);
+  /* background-color:var(--main-ivory); */
+}
+
+.more-contents__pay{
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-micro);
+  border: 2px solid var(--hover-white);
+  border-radius: 15px;
+  background-color: var(--main-light-green);
+  color: var(--title-white);
+  margin-bottom: 20px;
+}
+
+
+.more-contents__pay__left i{
+  font-size: var(--font-regular);
+  cursor: pointer;
+}
+
+.more-contents__pay__left, .more-contents__pay__right{
+  display: flex;
+  align-items: center;
+}
+
+.more-contents__pay--text{
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.more-contents__icons{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-top: 5px;
+  color: var(--title-dark-gray);
+  margin-bottom: 65px;
+}
+
+.more-contents__icons--box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 110px;
+  transition-duration: 0.3s;
+}
+
+.more-contents__icons--box i {
+  font-size: var(--font-large);
+}
+
+.more-contents__icons--box p {
+  margin-top: 10px;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-semi-bold);
+}
+
+.more-contents__icons--box:hover {
+  transform: translateY(-5px);
+  background-color: var(--hover-white);
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+.more-contents__icons--box:active{
+  transform: scale(0.9);
+}

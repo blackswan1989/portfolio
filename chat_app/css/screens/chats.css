@@ -1,0 +1,93 @@
+/* Using friends page & chat page */
+
+.user-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  background-color: var(--title-white);
+  color: var(--title-black);
+  min-height: 60vh;
+}
+
+.user-component.chats{
+  padding-bottom: 20px;
+}
+
+.user-component__column{
+  width: 100%;
+  padding:20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 35px;
+  transition: all 0.3s ease;
+}
+
+.user-component__column:hover{
+  transform: translateY(-5px);
+  background-color: var(--hover-white);
+  border-radius: 35px;
+}
+
+.user-component__column:last-child{
+  margin-bottom: 60px;
+}
+
+.user-component__column-left{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.user-component__avatar{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  opacity: 0.9;
+}
+
+.user-component__title{
+  width: 100%;
+  font-size: var(--font-small);
+  font-weight: var(--weight-semi-bold);
+}
+
+.user-component__subtitle{
+  margin-top: 15px;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+  opacity: 0.5;
+}
+
+.user-component__column-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+  color: var(--title-white);
+}
+
+.fa-angle-right{
+  font-size: var(--font-small);
+  color: var(--main-green);
+}
+
+.user-component__time{
+  margin-bottom: 15px;
+  color: var(--title-black);
+}
+
+.user-component__number {
+  border: 1px solid var(--main-green);
+  background-color: var(--main-green);
+  border-radius: 5px;
+  padding: 3px 6px;
+  text-align: center;
+}

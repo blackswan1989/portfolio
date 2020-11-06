@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet", href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU", crossorigin="anonymous")/>
+  </head>
+  <body>
+    <!-- Status bar -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>5G</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span class="js-clock">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock"></i>
+        <span>11%</span>
+        <i class="fas fa-battery-quarter"></i>
+      </div>
+    </div>
+
+    <!-- Screen-header -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <a href="search.html"><i class="fas fa-search fa-lg"></i></a>
+        <!-- <span><i class="fas fa-music fa-lg"></i></span> -->
+        <a href="setting.html"><i class="fas fa-cog fa-lg"></i></a>
+      </div>
+    </header>
+
+    <!-- chats -->
+    <a href="search.html" id="friends-display-link">
+      <i class="fas fa-info-circle"></i>
+      Search For New Inpormations
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+    <section class="user-component chats">
+      <a href="chatting.html" class="user-component__column">
+        <div class="user-component__column-left">
+          <img src="images/p5.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">댕댕이</h4>
+            <h6 class="user-component__subtitle">나 아이스크림 먹다 걸렸어ㅎㅎ</h6>
+          </div>
+        </div>
+        <div class="user-component__column-right">
+          <h4 class="user-component__time">12:37pm</h4>
+          <span class="user-component__number">2</span>
+        </div>
+      </a>
+      <a href="chatting.html" class="user-component__column">
+        <div class="user-component__column-left">
+          <img src="images/c3.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">냥냥펀치</h4>
+            <h6 class="user-component__subtitle">점심으로 츄르 같이 먹을래옹?</h6>
+          </div>
+        </div>
+        <div class="user-component__column-right">
+          <h4 class="user-component__time">11:25am</h4>
+          <span class="user-component__number">1</span>
+        </div>
+      </a>
+      <a href="chatting.html" class="user-component__column">
+        <div class="user-component__column-left">
+          <img src="images/c2.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">래옹</h4>
+            <h6 class="user-component__subtitle">나 과제하러 간다~</h6>
+          </div>
+        </div>
+        <div class="user-component__column-right">
+          <h4 class="user-component__time">02:12am</h4>
+          <span class="user-component__number">3</span>
+        </div>
+      </a>
+      <a href="chatting.html" class="user-component__column">
+        <div class="user-component__column-left">
+          <img src="images/p2.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">❤️</h4>
+            <h6 class="user-component__subtitle">자니?</h6>
+          </div>
+        </div>
+        <div class="user-component__column-right">
+          <h4 class="user-component__time">03:42am</h4>
+          <span class="user-component__number">2</span>
+        </div>
+      </a>
+      <a href="chatting.html" class="user-component__column">
+        <div class="user-component__column-left">
+          <img src="images/p4.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">호두</h4>
+            <h6 class="user-component__subtitle">잘자!</h6>
+          </div>
+        </div>
+        <div class="user-component__column-right">
+          <h4 class="user-component__time">12:58am</h4>
+          <span class="user-component__number">1</span>
+        </div>
+      </a>
+      <a href="chatting.html" class="user-component__column">
+        <div class="user-component__column-left">
+          <img src="images/c4.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">친동생놈</h4>
+            <h6 class="user-component__subtitle">올 때 메로나</h6>
+          </div>
+        </div>
+        <div class="user-component__column-right">
+          <h4 class="user-component__time">10:35pm</h4>
+          <!-- <span class="user-component__number">1</span> -->
+        </div>
+      </a>
+    </section>
+
+    <!-- Nav bar -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__a" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">3</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification_dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Only for mobile screen -->
+    <div class="mobile-screen">
+      <span>Please make the screen smaller 🙏🏼 </span>
+    </div>
+
+    <script src="js/clock.js"></script>
+  </body>
+</html>
