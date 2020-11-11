@@ -1,0 +1,20 @@
+.categories-detail {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.categories-detail__content {
+  flex-wrap: wrap;
+  flex-grow: 4;
+  margin: 0px;
+  border-left: 1px solid var(--title-black);
+  border-bottom: 1px solid var(--title-black);
+}
+
+.categories-detail__content img {
+  width: 100%;
+  margin: 0px;
+}
