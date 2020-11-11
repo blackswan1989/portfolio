@@ -4,7 +4,6 @@
   }
 
   .main .videos {
-    height: 40vh;
     margin-bottom: 120px;
   }
 
@@ -21,16 +20,14 @@
       position: static;
       width: 90%;
       margin: 30px 0px;
-      margin-top: 30px;
+      margin-top: 50px;
       padding: 50px 50px;
-      height: 50vh;
       margin: auto;
     }
 
     .header .header__container {
       margin-bottom: 0px;
       width: 70%;
-      height: 50vh;
     }
 
     .header__container .header__title:nth-child(3) {
@@ -51,22 +48,23 @@
     }
 
     .main .videos {
-      height: 50vh;
-      /* margin-bottom: 10px; */
+      margin-bottom: 50px;
     }
 
     .videos .videos__link {
-      margin-top: 50px;
+      margin-top: 30px;
+      margin-bottom: 50px;
     }
 
     .videos__link img {
-      width: 80%;
+      width: 75%;
     }
 
     @media screen and (max-width: 768px) {
       body .header {
         transform: scale(0.9);
         width: 80%;
+        height: 70vh;
       }
 
       .header .header__container {
@@ -74,12 +72,11 @@
       }
 
       .main .videos {
-        height: 35vh;
         margin-bottom: 100px;
       }
 
       .videos .videos__link {
-        margin-top: 25px;
+        margin-top: 50px;
       }
 
       .videos__link img {
@@ -97,7 +94,6 @@
       }
 
       .main .videos {
-        height: 30vh;
         margin-bottom: 60px;
       }
 
@@ -112,6 +108,10 @@
       .videos .videos__title div:first-child {
         font-size: 14px;
       }
+
+      .main .main__bottom-text {
+        font-size: 5px;
+      }
     }
 
     @media screen and (max-width: 414px) {
@@ -122,6 +122,7 @@
         margin: 50px 0px;
         margin-top: 50px;
         padding: 0px;
+        height: 60vh;
       }
 
       .header__container {
@@ -157,16 +158,12 @@
         font-size: 3rem;
       }
 
-      .videos:last-child {
-        margin-bottom: 100px;
-      }
-
       .main .main__bottom-text {
         margin-bottom: 30px;
       }
     }
 
-    @media screen and (max-width: 280px) {
+    @media screen and (max-width: 320px) {
       body .header {
         width: 100%;
       }
@@ -190,6 +187,10 @@
 
       .play-icon .fa-youtube {
         font-size: 2rem;
+      }
+
+      .main .videos:last-child {
+        margin-bottom: 50px;
       }
     }
   }
