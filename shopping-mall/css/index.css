@@ -1,0 +1,24 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: var(--title-black);
+  gap: 1px;
+}
+
+.home__grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: var(--title-black);
+  background-color: var(--title-white);
+}
+
+.home__grid:hover {
+  background-color: var(--hover-gray);
+}
+
+.home__grid:hover {
+  text-decoration: underline;
+}
