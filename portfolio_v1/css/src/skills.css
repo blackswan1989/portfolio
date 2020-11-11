@@ -1,5 +1,5 @@
 #skills {
-  background:url(../images/bg.png);
+  background: url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: top;
   /* background-size: 1980px; */
@@ -38,7 +38,7 @@
 }
 
 #skills p {
-  margin: 40px 20px;
+  margin: 60px 20px;
   color: var(--title-white);
   font-size: var(--font-small);
   font-weight: var(--weight-regular);
@@ -54,36 +54,39 @@
   justify-content: space-between;
 }
 
-.skillset__left, .skillset__right{
+.skillset__left,
+.skillset__right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 530px;
+  /* height: 530px; */
+  padding: 45px 20px;
   background-color: #303030;
   border-radius: 5px;
   margin-bottom: 120px;
 }
 
-.skill{
+.skill {
   width: 100%;
   padding: 20px 30px;
   font-size: var(--font-small);
 }
 
-.skill__description{
+.skill__description {
   width: 100%;
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
-} 
+}
 
 .skill__description i {
   margin-right: 5px;
   font-size: 23px;
 }
 
-.skill__bar{
+.skill__bar {
   width: 100%;
   height: 10px;
   margin-top: 10px;
@@ -94,13 +97,13 @@
 .skill__value {
   height: 10px;
   border-radius: 3px;
-  background-color:var(--value-yellow);
+  background-color: var(--value-yellow);
 }
 
 .skill:nth-child(1) .skill__value {
   animation: html 1.5s ease;
 }
-.skill:nth-child(2) .skill__value{
+.skill:nth-child(2) .skill__value {
   animation: css 1.5s ease;
 }
 .skill:nth-child(3) .skill__value {
@@ -114,55 +117,54 @@
 }
 
 @keyframes html {
-  from{
+  from {
     width: 10%;
   }
   to {
-    width: 90%
+    width: 90%;
   }
 }
 @keyframes css {
-  from{
+  from {
     width: 10%;
   }
   to {
-    width: 90%
+    width: 90%;
   }
 }
 @keyframes javascript {
-  from{
+  from {
     width: 10%;
   }
   to {
-    width: 70%
+    width: 70%;
   }
 }
 @keyframes react {
-  from{
+  from {
     width: 10%;
   }
   to {
-    width: 50%
+    width: 50%;
   }
 }
 @keyframes nodejs {
-  from{
+  from {
     width: 10%;
   }
   to {
-    width: 50%
+    width: 50%;
   }
 }
 
-
-.fa-css3-alt{
+.fa-css3-alt {
   color: rgb(0, 172, 240);
 }
 
-.fa-js-square{
+.fa-js-square {
   color: var(--value-yellow);
 }
 
-.fa-node-js{
-  color: #7FBD02;
+.fa-node-js {
+  color: #7fbd02;
 }

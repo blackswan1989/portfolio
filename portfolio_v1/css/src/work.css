@@ -132,7 +132,7 @@
   color: var(--title-black);
   width: 400px;
   height: 350px;
-  margin: 3px;
+  margin: 20px;
   position: relative;
   flex-grow: 1;
   transition-duration: 0.5s;

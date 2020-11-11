@@ -116,6 +116,19 @@ body {
 
 /* Media query */
 
+@media screen and (max-width: 1200px) {
+  .about__majors,
+  .skillset {
+    width: 80%;
+  }
+
+  #skills p,
+  #about p {
+    margin: 80px 0px;
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   :root {
     --font-large: 30px;
@@ -197,6 +210,7 @@ body {
 
   #about p {
     width: 80%;
+    margin: 40px 0px;
   }
 
   .about__majors {
@@ -225,6 +239,7 @@ body {
 
   #skills p {
     width: 80%;
+    font-size: var(--font-regular);
   }
 
   .skillset {
@@ -249,6 +264,10 @@ body {
   .categories__btn {
     width: 40%;
     margin: 8px 8px;
+  }
+
+  .work__projects {
+    margin-top: 20px;
   }
 
   .project {
@@ -285,7 +304,7 @@ body {
     #about p,
     #skills p {
       line-height: 20px;
-      text-align: justify;
+      font-size: var(--font-small);
     }
 
     .major__icon {
@@ -329,6 +348,56 @@ body {
 
     #contact a {
       font-size: 50px;
+    }
+
+    .skillset__left {
+      padding: 15px 20px;
+    }
+    .skill {
+      padding: 20px 0px;
+    }
+
+    @media screen and (max-width: 280px) {
+      .about__title {
+        width: 100%;
+      }
+
+      #about img {
+        margin-right: 10px;
+        width: 100px;
+        height: 100px;
+      }
+
+      #about h1 {
+        font-size: 26px;
+      }
+
+      .major__icon {
+        width: 80px;
+        height: 80px;
+      }
+
+      .major__icon i {
+        line-height: 80px;
+        font-size: 2.5rem;
+      }
+
+      .major__title {
+        margin: 10px 0px;
+      }
+      .major__description {
+        margin-bottom: 10px;
+      }
+
+      .work__h1,
+      .skills__h1 {
+        transform: scale(0.85);
+      }
+
+      .contact__title,
+      .contact__email {
+        transform: scale(0.9);
+      }
     }
   }
 }
