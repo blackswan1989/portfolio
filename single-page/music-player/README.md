@@ -6,9 +6,7 @@
 
 ### Photo
 
-![musicplayer](https://user-images.githubusercontent.com/67410919/98775782-22c0f300-2431-11eb-90a7-dbe187e756ea.png)
-
-![m-musicplayer](https://user-images.githubusercontent.com/67410919/98775802-2bb1c480-2431-11eb-862f-72f01aabdeb7.png)
+![music-player](https://user-images.githubusercontent.com/67410919/98777719-97496100-2434-11eb-8eee-3c2fca38ea5c.png)
 
 ---
 
