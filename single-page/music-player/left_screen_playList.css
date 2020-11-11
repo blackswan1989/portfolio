@@ -232,8 +232,8 @@ i:active {
 }
 
 .box {
-  height: 15px;
-  width: 5px;
+  height: 18px;
+  width: 4px;
   margin-left: 3px;
   background-color: white;
   animation: scale 1s ease-in-out infinite;

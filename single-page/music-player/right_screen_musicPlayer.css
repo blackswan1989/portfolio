@@ -58,6 +58,7 @@ i:active {
   margin: 0px 20px;
   margin-top: 60px;
   margin-bottom: 15px;
+  position: relative;
 }
 
 .right-header__img img {
@@ -66,6 +67,18 @@ i:active {
   -webkit-box-shadow: 0px 25px 39px 1px rgb(104, 104, 104);
   -moz-box-shadow: 0px 25px 39px 1px rgb(116, 113, 113);
   box-shadow: 0px 15px 39px 1px rgb(153, 153, 153);
+}
+
+@keyframes scale {
+  0% {
+    transform: scaleY(1);
+  }
+  20% {
+    transform: scaleY(1.8);
+  }
+  50% {
+    transform: scaleY(1);
+  }
 }
 
 .right-header__title-Column {
