@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "mobile.css";
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 :root {
@@ -28,14 +29,13 @@ img {
 
 .header {
   height: 100vh;
-  width: 40%;
+  width: 60%;
   color: var(--main-color);
   position: fixed;
   display: flex;
   justify-content: center;
   align-content: center;
-  min-width: 50px;
-  max-width: 350px;
+  /* max-width: 550px; */
   margin: 50px 50px;
   text-align: justify;
 }
@@ -68,6 +68,10 @@ img {
   margin: 0;
 }
 
+.header__text:nth-child(3) {
+  width: 50%;
+}
+
 .header__text:last-child {
   margin-top: 30px;
   font-size: 0.8rem;
@@ -80,10 +84,6 @@ img {
   margin-left: 40%;
   width: 100%;
   z-index: 1;
-}
-
-.main-container {
-  /* padding: 50px; */
 }
 
 .videos {
