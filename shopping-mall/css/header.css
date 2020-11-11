@@ -1,0 +1,86 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40px;
+  background-color: var(--title-black);
+  gap: 1px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--title-white);
+}
+
+.header-title > div {
+  margin-left: 15px;
+}
+
+input {
+  outline: none;
+  height: 20px;
+  border: none;
+  background-color: var(--title-white);
+  margin-left: 5px;
+  font-size: 0.8rem;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  background-color: var(--title-white);
+}
+
+.header-users {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--title-white);
+}
+.header-users > span {
+  margin-right: 10px;
+}
+
+.text-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-top: 1.5px solid var(--title-black);
+  border-bottom: 1.5px solid var(--title-black);
+  opacity: 0.9;
+}
+
+.login {
+  cursor: pointer;
+}
+
+i {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+i:active {
+  transform: scale(0.9);
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px;
+  text-align: start;
+  height: 35px;
+  opacity: 0.9;
+}
+
+.category > i {
+  margin-right: 15px;
+}
