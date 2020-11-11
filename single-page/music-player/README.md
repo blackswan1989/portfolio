@@ -1,8 +1,8 @@
 # Music Player Screen
 
 - [x] HTML + CSS
-- [x] Frame set
-- [x] Responsive Screen
+- [x] Frame set (right screen & left screen)
+- [x] Responsive Screen (for mobile)
 
 ### Photo
 
