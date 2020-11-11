@@ -1,0 +1,33 @@
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  background-color: var(--title-black);
+  gap: 1px;
+  font-size: var(--font-micro);
+}
+
+.categories__grid {
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--title-black);
+  background-color: var(--title-white);
+}
+
+.categories__grid:hover {
+  background-color: var(--hover-gray);
+}
+
+.categories__grid:hover {
+  text-decoration: underline;
+}
+
+.categories__grid i {
+  margin: 0;
+}
+
+.categories__grid:hover i {
+  text-decoration: none;
+}
