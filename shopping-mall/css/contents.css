@@ -1,0 +1,154 @@
+.contents {
+  display: flex;
+  border-bottom: 1.5px solid black;
+}
+
+/*  shopping-content section  */
+
+.shopping-content {
+  width: 50%;
+  display: flex;
+  border-top: 1.5px solid black;
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1fr); */
+  min-height: 90vh;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.shopping-content::-webkit-scrollbar {
+  display: none;
+}
+
+.shopping-content__img {
+  width: 50%;
+  background-color: #f5f5f7;
+  border-top: 1.5px solid black;
+  border-right: 1.5px solid black;
+}
+
+.shopping-content__img > img {
+  width: 100%;
+  border-top: 1.5px solid black;
+  /* min-width: 600px; */
+}
+
+.shopping-content__img > img:first-child {
+  border-top: none;
+}
+
+.shopping-content__options {
+  width: 100%;
+}
+
+.shopping__options__price {
+  display: flex;
+  border-bottom: 1.5px solid black;
+  height: 40px;
+}
+
+.shopping__options__price > .price,
+.shopping__options__price > .add {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping__options__price > .add:hover {
+  background-color: var(--hover-green);
+  cursor: pointer;
+}
+
+.shopping__options__detail {
+  border-bottom: 1.5px solid black;
+}
+
+.detail-text {
+  margin: 30px 20px;
+}
+
+.detail-text:first-child {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.detail-text:last-child {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.detail-color {
+  margin: 30px 20px;
+}
+
+.detail-color .color-circle {
+  padding: 5px 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+}
+
+.detail__size {
+  margin: 40px 20px;
+  min-width: 500px;
+}
+
+.size__numbers {
+  border: 1px solid black;
+  padding: 8px 10px;
+  opacity: 0.7;
+  font-weight: 300;
+  margin: 0px 8px;
+}
+
+.size__numbers:first-child {
+  margin-left: 0;
+}
+
+.size__numbers:hover {
+  cursor: pointer;
+  background-color: var(--hover-gray);
+  opacity: 1;
+}
+
+.shopping__info {
+  display: flex;
+}
+
+.info__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-bottom: 1.5px solid black;
+  padding: 15px 0px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.info__title:last-child {
+  border-left: 1.5px solid black;
+}
+
+.info__title:hover {
+  background-color: var(--hover-green);
+}
+
+.shopping__products {
+  margin: 20px 20px;
+}
+
+.shopping__products__details {
+  margin: 40px 0px;
+}
+
+.shopping__products__details > ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
