@@ -15,12 +15,6 @@ body {
   cursor: default;
 }
 
-img {
-  width: 50vw;
-  box-shadow: 5px 5px 15px rgb(39, 39, 39);
-  transition-duration: 2s;
-}
-
 @keyframes animate-shadow {
   50% {
     text-shadow: 8px 8px 8px #aaa;
@@ -70,11 +64,13 @@ img {
 
 .header__text:nth-child(3) {
   width: 50%;
+  margin-bottom: 100px;
 }
 
-.header__text:last-child {
-  margin-top: 30px;
-  font-size: 0.8rem;
+.header__text-box a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* main-videos section  */
@@ -110,13 +106,13 @@ img {
   margin: 20px 40px;
 }
 
+.videos__title div:first-child {
+  font-size: 2.2vw;
+}
+
 .videos__title div:nth-child(2) {
   text-align: end;
   width: 40%;
-}
-
-.videos__title div:first-child {
-  font-size: 2.2vw;
 }
 
 .videos__link {
@@ -124,6 +120,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
+}
+
+img {
+  width: 80%;
+  box-shadow: 5px 5px 15px rgb(39, 39, 39);
+  transition-duration: 2s;
 }
 
 .play-icon {

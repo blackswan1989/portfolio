@@ -1,62 +1,196 @@
-@media screen and (max-width: 1010px) {
-  body {
-    flex-direction: column;
-  }
-
-  body .header {
-    position: static;
-    width: 90%;
-    margin: 30px 0px;
-    margin-top: 30px;
-    padding: 50px 50px;
-    height: 50vh;
-  }
-
-  .header .header__container {
-    margin-bottom: 0px;
-    width: 70%;
-    height: 50vh;
-  }
-
-  .header__container .header__title:nth-child(3) {
+@media screen and (max-width: 1400px) {
+  .header__container .header__text:nth-child(3) {
     margin-bottom: 30px;
   }
 
-  .header__text {
-    margin-top: 0px;
+  .main .videos {
+    height: 40vh;
+    margin-bottom: 120px;
   }
 
-  .header__text-box .header__text:nth-child(3) {
-    width: 100%;
+  img {
+    width: 60%;
   }
 
-  body .main {
-    width: 100%;
-    margin-left: 0;
-  }
+  @media screen and (max-width: 1050px) {
+    body {
+      flex-direction: column;
+    }
 
-  .videos__link {
-    margin-top: 50px;
-  }
-
-  .videos__link img {
-    width: 80%;
-  }
-  @media screen and (max-width: 700px) {
     body .header {
-      transform: scale(0.9);
+      position: static;
+      width: 90%;
+      margin: 30px 0px;
+      margin-top: 30px;
+      padding: 50px 50px;
+      height: 50vh;
+      margin: auto;
     }
 
     .header .header__container {
-      width: 80%;
+      margin-bottom: 0px;
+      width: 70%;
+      height: 50vh;
+    }
+
+    .header__container .header__title:nth-child(3) {
+      margin-bottom: 30px;
+    }
+
+    .header__text {
+      margin-top: 0px;
+    }
+
+    .header__text-box .header__text:nth-child(3) {
+      width: 100%;
+    }
+
+    body .main {
+      width: 100%;
+      margin-left: 0;
     }
 
     .main .videos {
-      height: 40vh;
-      margin-bottom: 50px;
+      height: 50vh;
+      /* margin-bottom: 10px; */
     }
-    .videos__link {
-      margin-top: 30px;
+
+    .videos .videos__link {
+      margin-top: 50px;
+    }
+
+    .videos__link img {
+      width: 80%;
+    }
+
+    @media screen and (max-width: 768px) {
+      body .header {
+        transform: scale(0.9);
+        width: 80%;
+      }
+
+      .header .header__container {
+        width: 90%;
+      }
+
+      .main .videos {
+        height: 35vh;
+        margin-bottom: 100px;
+      }
+
+      .videos .videos__link {
+        margin-top: 25px;
+      }
+
+      .videos__link img {
+        width: 75%;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      body .header {
+        transform: scale(0.8);
+      }
+
+      .header .header__container {
+        width: 100%;
+      }
+
+      .main .videos {
+        height: 30vh;
+        margin-bottom: 60px;
+      }
+
+      .videos .videos__link {
+        margin-top: 30px;
+      }
+
+      .videos .videos__title {
+        align-items: flex-start;
+      }
+
+      .videos .videos__title div:first-child {
+        font-size: 14px;
+      }
+    }
+
+    @media screen and (max-width: 414px) {
+      body .header {
+        position: static;
+        transform: scale(0.7);
+        width: 100%;
+        margin: 50px 0px;
+        margin-top: 50px;
+        padding: 0px;
+      }
+
+      .header__container {
+        transform: scale(0.95);
+      }
+
+      .main .videos {
+        margin-bottom: 30px;
+      }
+
+      .videos .videos__link {
+        margin-top: 20px;
+      }
+
+      .videos .videos__title {
+        margin: 10px 20px;
+        align-items: flex-start;
+      }
+
+      .videos .videos__title div:first-child {
+        font-size: 12px;
+      }
+
+      .videos .videos__title div:last-child {
+        font-size: 8px;
+      }
+
+      .videos__link img {
+        width: 80%;
+      }
+
+      .play-icon .fa-youtube {
+        font-size: 3rem;
+      }
+
+      .videos:last-child {
+        margin-bottom: 100px;
+      }
+
+      .main .main__bottom-text {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media screen and (max-width: 280px) {
+      body .header {
+        width: 100%;
+      }
+
+      .header__container {
+        transform: scale(0.9);
+      }
+
+      .header__container .header__title {
+        font-size: 3.5rem;
+      }
+
+      .videos .videos__title {
+        margin: 10px 10px;
+      }
+
+      .videos .videos__title {
+        transform: scale(0.9);
+        align-items: flex-start;
+      }
+
+      .play-icon .fa-youtube {
+        font-size: 2rem;
+      }
     }
   }
 }
