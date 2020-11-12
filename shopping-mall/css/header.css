@@ -8,14 +8,14 @@
 
 .header a {
   text-decoration: none;
-  color: black;
+  color: var(--title-black);
 }
 
 .header-title {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: var(--font-large);
+  font-weight: var(--weight-semi-bold);
   background-color: var(--title-white);
 }
 
@@ -29,7 +29,8 @@ input {
   border: none;
   background-color: var(--title-white);
   margin-left: 5px;
-  font-size: 0.8rem;
+  font-size: var(--font-micro);
+  font-weight: var(--weight-thin);
 }
 
 .header-search {
@@ -44,46 +45,24 @@ input {
   align-items: center;
   background-color: var(--title-white);
 }
+
 .header-users > span {
   margin-right: 10px;
-}
-
-.text-slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  border-top: 1.5px solid var(--title-black);
-  border-bottom: 1.5px solid var(--title-black);
-  opacity: 0.9;
+  font-size: var(--font-small);
 }
 
 .login {
   cursor: pointer;
-  font-size: var(--font-small);
 }
 
 i {
   margin-left: 15px;
   cursor: pointer;
+  font-size: var(--font-regular);
 }
 
 i:active {
   transform: scale(0.9);
-}
-
-.category {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: 15px;
-  text-align: start;
-  height: 35px;
-  opacity: 0.9;
-}
-
-.category > i {
-  margin-right: 15px;
 }
 
 .route {
