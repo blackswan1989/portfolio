@@ -21,6 +21,7 @@
   font-size: var(--font-large);
   font-weight: var(--weight-semi-bold);
   background-color: var(--title-white);
+  padding-right: 15px;
 }
 
 .header-title > div {
@@ -61,7 +62,7 @@ input {
 }
 
 i {
-  margin-left: 5px;
+  margin-left: 15px;
   cursor: pointer;
   font-size: var(--font-regular);
 }

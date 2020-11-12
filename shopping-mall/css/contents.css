@@ -176,7 +176,7 @@
 
 .other-variations {
   border-bottom: 1px solid var(--title-black);
-  padding: 18px 10px;
+  padding: 18px 0px;
   text-align: center;
   font-size: var(--font-micro);
 }
