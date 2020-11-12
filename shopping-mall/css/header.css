@@ -60,6 +60,7 @@ input {
 
 .login {
   cursor: pointer;
+  font-size: var(--font-small);
 }
 
 i {
@@ -83,4 +84,21 @@ i:active {
 
 .category > i {
   margin-right: 15px;
+}
+
+.route {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--title-black);
+  height: 40px;
+  border-top: 1.5px solid var(--title-black);
+  border-bottom: 1.5px solid var(--title-black);
+  opacity: 0.9;
+  font-size: var(--font-small);
+}
+
+.route a {
+  color: var(--title-black);
+  margin-left: 16px;
 }
