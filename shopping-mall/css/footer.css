@@ -68,12 +68,16 @@
   text-align: start;
   padding-left: 10px;
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: var(--font-micro);
+  text-decoration: none;
+  color: var(--hover-green);
+  font-weight: var(--weight-semi-bold);
 }
 
 .footer-box__contents__text__email:hover {
   background-color: var(--hover-green);
   cursor: pointer;
+  color: var(--title-black);
 }
 
 .footer__corp {
@@ -82,4 +86,9 @@
   padding: 20px 10px;
   background-color: #bbbbbd;
   font-size: 13px;
+}
+
+.footer-box__contents__text.git {
+  color: var(--hover-green);
+  font-weight: var(--weight-bold);
 }
