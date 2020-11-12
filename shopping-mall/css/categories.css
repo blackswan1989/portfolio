@@ -6,6 +6,7 @@
   gap: 1px;
   font-size: var(--font-micro);
   border-bottom: 1px solid var(--title-black);
+  border-top: 1px solid var(--title-black);
 }
 
 .categories__grid {
