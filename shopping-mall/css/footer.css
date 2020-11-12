@@ -73,6 +73,10 @@
   height: 230px;
   border-right: 1.5px solid var(--title-black);
   padding: 20px 10px;
+  padding-right: 40px;
+  line-height: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .footer-box__contents:last-child {

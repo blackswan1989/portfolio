@@ -41,6 +41,7 @@ input {
   display: flex;
   align-items: center;
   background-color: var(--title-white);
+  padding: 0px 5px;
 }
 
 .header-users {

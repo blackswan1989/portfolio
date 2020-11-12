@@ -181,6 +181,10 @@
   font-size: var(--font-micro);
 }
 
+.categories-detail.contents {
+  display: flex;
+}
+
 .categories-detail.contents .categories-detail__content {
   border-left: none;
   border-bottom: none;
