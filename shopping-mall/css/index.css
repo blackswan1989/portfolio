@@ -5,6 +5,7 @@
   background-color: var(--title-black);
   gap: 1px;
   border-bottom: 1px solid var(--title-black);
+  border-top: 1px solid var(--title-black);
 }
 
 .home__grid {
