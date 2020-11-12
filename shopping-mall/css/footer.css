@@ -55,14 +55,15 @@
   /* border-top: 1.5px solid black; */
   padding: 20px;
   background-color: #bbbbbd;
+  width: 100%;
 }
 
 .footer-box {
   display: flex;
   border-top: 1.5px solid var(--title-black);
   border-bottom: 1.5px solid var(--title-black);
-  opacity: 0.8;
-  background-color: #aaaaac;
+  background-color: #bbbbbd;
+  width: 100%;
 }
 
 .footer-box__contents {
@@ -73,6 +74,7 @@
   border-right: 1.5px solid var(--title-black);
   padding: 20px 10px;
 }
+
 .footer-box__contents:last-child {
   border-right: none;
 }
@@ -86,6 +88,7 @@
   margin-bottom: 10px;
   font-size: var(--font-micro);
 }
+
 .footer-box__contents__text:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -115,6 +118,7 @@
   padding: 20px 10px;
   background-color: #bbbbbd;
   font-size: var(--font-micro);
+  width: 100%;
 }
 
 .footer-box__contents__text.git {
