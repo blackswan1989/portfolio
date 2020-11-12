@@ -1,9 +1,13 @@
 .header {
+  position: fixed;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 40px;
   background-color: var(--title-black);
   gap: 1px;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid var(--title-black);
 }
 
 .header a {
@@ -75,15 +79,18 @@ i:active {
 /* Route */
 
 .route {
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   color: var(--title-black);
   height: 40px;
-  border-top: 1.5px solid var(--title-black);
-  border-bottom: 1.5px solid var(--title-black);
-  opacity: 0.9;
+  border-bottom: 1px solid var(--title-black);
   font-size: var(--font-small);
+  margin-top: 40px;
+  background-color: var(--bg-white);
+  z-index: 1;
 }
 
 .route a {
@@ -121,8 +128,9 @@ i:active {
 .tg-active__link:last-child {
   border-bottom: none;
   font-size: var(--font-micro);
-  line-height: 20px;
+  line-height: 15px;
   padding-right: 60px;
+  padding-bottom: 60px;
   text-decoration: none;
   background-color: var(--bg-white);
   cursor: default;
@@ -131,12 +139,15 @@ i:active {
 .tg-active.toggle-active {
   display: flex;
   width: 100%;
-  position: absolute;
+  margin-top: 40px;
+  position: fixed;
   transition-duration: 0.5s;
-  height: 100vh;
+  height: 100%;
   width: 33.3%;
+  top: 0;
   right: 0;
   background-color: var(--bg-white);
   border: 1px solid var(--title-black);
   border-right: none;
+  z-index: 2;
 }
