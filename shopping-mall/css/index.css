@@ -6,6 +6,7 @@
   gap: 1px;
   border-bottom: 1px solid var(--title-black);
   border-top: 1px solid var(--title-black);
+  font-size: var(--font-regular);
 }
 
 .home__grid {
