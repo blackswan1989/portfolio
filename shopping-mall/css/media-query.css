@@ -27,9 +27,19 @@
   }
 
   .categories-detail__content--size {
-    transform: scale(0.8);
+    width: 100%;
     bottom: 5px;
     left: 0px;
+  }
+
+  .categories-detail__content--size .detail__size {
+    width: 100%;
+  }
+
+  .categories-detail__content--size .size__numbers {
+    width: 24px;
+    height: 24px;
+    font-size: var(--font-tiny);
   }
 
   .contents {
