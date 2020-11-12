@@ -6,6 +6,7 @@
 @import "categories_detail.css";
 @import "contents.css";
 @import "footer.css";
+@import "media-query.css";
 
 * {
   text-decoration: none;
