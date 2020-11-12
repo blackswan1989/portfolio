@@ -56,7 +56,7 @@ input {
 }
 
 i {
-  margin-left: 15px;
+  margin-left: 5px;
   cursor: pointer;
   font-size: var(--font-regular);
 }
@@ -64,6 +64,15 @@ i {
 i:active {
   transform: scale(0.9);
 }
+
+.toggle-btn {
+  outline: none;
+  background-color: var(--bg-white);
+  border: none;
+  margin-right: 15px;
+}
+
+/* Route */
 
 .route {
   display: flex;
@@ -83,6 +92,7 @@ i:active {
 }
 
 /* Toggle menu */
+
 .tg-active {
   display: none;
 }
@@ -103,17 +113,22 @@ i:active {
   padding: 15px 10px;
 }
 
+.tg-active__link:hover {
+  text-decoration: underline;
+  background-color: var(--hover-green);
+}
+
 .tg-active__link:last-child {
   border-bottom: none;
   font-size: var(--font-micro);
   line-height: 20px;
-  /* padding-right: 50px; */
+  padding-right: 60px;
+  text-decoration: none;
+  background-color: var(--bg-white);
+  cursor: default;
 }
 
 .tg-active.toggle-active {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr; */
   display: flex;
   width: 100%;
   position: absolute;
