@@ -19,20 +19,21 @@ body {
   height: 100vh;
   font-weight: var(--weight-regular);
   /* display: grid; */
+  overflow: hidden;
 }
 
 :root {
   /* color, font-size, size */
   --title-black: rgb(31, 31, 31);
   --title-white: rgb(251, 251, 251);
-  --border-black: rgb(29, 29, 29);
+  --bg-white: white;
   --hover-green: rgb(103, 238, 103);
   --hover-gray: rgb(226, 226, 226);
 
-  --font-large: 48px;
-  --font-medium: 28px;
-  --font-regular: 18px;
-  --font-small: 16px;
+  --font-large: 22px;
+  --font-medium: 18px;
+  --font-regular: 15px;
+  --font-small: 14px;
   --font-micro: 12px;
 
   --weight-bold: 600;
