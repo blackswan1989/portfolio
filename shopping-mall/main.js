@@ -36,8 +36,8 @@ backToTop.addEventListener("click", () => {
 // Menu button toggle
 const toggleMenu = document.querySelector(".tg-active");
 
-const navbarToggleBtn = document.querySelector(".toggle-btn");
+const toggleBtn = document.querySelector(".toggle-btn");
 
-navbarToggleBtn.addEventListener("click", () => {
+toggleBtn.addEventListener("click", () => {
   toggleMenu.classList.toggle("toggle-active");
 });
