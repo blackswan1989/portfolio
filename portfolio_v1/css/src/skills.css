@@ -110,10 +110,10 @@
   animation: javascript 1.5s ease;
 }
 .skill:nth-child(4) .skill__value {
-  animation: react 1.5s ease;
+  animation: sass 1.5s ease;
 }
 .skill:nth-child(5) .skill__value {
-  animation: nodejs 1.5s ease;
+  animation: react 1.5s ease;
 }
 
 @keyframes html {
@@ -137,7 +137,15 @@
     width: 10%;
   }
   to {
-    width: 70%;
+    width: 60%;
+  }
+}
+@keyframes sass {
+  from {
+    width: 10%;
+  }
+  to {
+    width: 50%;
   }
 }
 @keyframes react {
@@ -145,15 +153,7 @@
     width: 10%;
   }
   to {
-    width: 50%;
-  }
-}
-@keyframes nodejs {
-  from {
-    width: 10%;
-  }
-  to {
-    width: 50%;
+    width: 40%;
   }
 }
 
