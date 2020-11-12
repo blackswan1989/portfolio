@@ -43,7 +43,11 @@ body {
   --weight-thin: 200;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 785px) {
+  :root {
+    --font-large: 18px;
+  }
+
   .tg-active.toggle-active {
     width: 33.2%;
   }
@@ -151,10 +155,10 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
   :root {
     /* color, font-size, weight */
-    --font-large: 18px;
+    --font-large: 17px;
     --font-medium: 15px;
     --font-regular: 13px;
     --font-small: 12px;
