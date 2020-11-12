@@ -173,3 +173,30 @@
   list-style-type: disc;
   margin-left: 20px;
 }
+
+.other-variations {
+  border-bottom: 1px solid var(--title-black);
+  padding: 18px 10px;
+  text-align: center;
+  font-size: var(--font-micro);
+}
+
+.categories-detail.contents .categories-detail__content {
+  border-left: none;
+  border-bottom: none;
+  border-right: 1px solid var(--title-black);
+  width: 100%;
+}
+.categories-detail.contents .categories-detail__content:last-child {
+  border-right: none;
+}
+
+.categories-detail.contents .categories-detail__content img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.categories-detail.contents .categories-detail__content:hover img:last-child {
+  display: inline-block;
+}
