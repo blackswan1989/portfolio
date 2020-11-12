@@ -4,20 +4,49 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1.5px solid black;
+  border-bottom: 1.5px solid var(--title-black);
   padding: 30px 0px;
 }
 
-.back-button__btt {
-  border: 1.5px solid black;
+.back-button__btn {
+  border: 1.5px solid var(--title-black);
   padding: 10px 60px;
   border-radius: 20px;
   opacity: 0.9;
   cursor: pointer;
+  background-color: var(--bg-white);
+  outline: none;
 }
 
-.back-button__btt:hover {
+.back-button__btn:hover {
   background-color: var(--hover-green);
+}
+
+.back-button__btn:hover .back-button__btn-text {
+  animation: backBtn 0.5s;
+}
+
+@keyframes backBtn {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  51% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.back-button__btn .back-button__btn-text {
+  font-size: var(--font-small);
+  font-weight: var(--weight-thin);
 }
 
 /* footer section */
@@ -30,8 +59,8 @@
 
 .footer-box {
   display: flex;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
+  border-top: 1.5px solid var(--title-black);
+  border-bottom: 1.5px solid var(--title-black);
   opacity: 0.8;
   background-color: #aaaaac;
 }
@@ -41,7 +70,7 @@
   flex-direction: column;
   width: 20%;
   height: 230px;
-  border-right: 1.5px solid black;
+  border-right: 1.5px solid var(--title-black);
   padding: 20px 10px;
 }
 .footer-box__contents:last-child {
@@ -49,13 +78,13 @@
 }
 
 .footer-box__contents__text:first-child {
-  font-size: 17px;
+  font-size: var(--font-regular);
   margin-bottom: 20px;
 }
 
 .footer-box__contents__text {
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: var(--font-micro);
 }
 .footer-box__contents__text:hover {
   text-decoration: underline;
@@ -64,7 +93,7 @@
 
 .footer-box__contents__text__email {
   padding: 8px 30px;
-  border: 1px solid black;
+  border: 1px solid var(--title-black);
   text-align: start;
   padding-left: 10px;
   margin-bottom: 20px;
@@ -85,7 +114,7 @@
   align-items: center;
   padding: 20px 10px;
   background-color: #bbbbbd;
-  font-size: 13px;
+  font-size: var(--font-micro);
 }
 
 .footer-box__contents__text.git {
