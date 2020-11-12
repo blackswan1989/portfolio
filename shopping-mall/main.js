@@ -34,10 +34,10 @@ backToTop.addEventListener("click", () => {
 });
 
 // Menu button toggle
-const navbarMenu = document.querySelector(".tg-active");
+const toggleMenu = document.querySelector(".tg-active");
 
 const navbarToggleBtn = document.querySelector(".toggle-btn");
 
 navbarToggleBtn.addEventListener("click", () => {
-  navbarMenu.classList.toggle("toggle-active");
+  toggleMenu.classList.toggle("toggle-active");
 });
