@@ -25,3 +25,8 @@
 .home__grid:hover {
   text-decoration: underline;
 }
+
+.back-button.index,
+.route.index {
+  display: none;
+}
