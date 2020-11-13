@@ -103,6 +103,16 @@ i:active {
 
 .tg-active {
   display: none;
+  animation: toggleSmooth 0.3s ease-in-out;
+}
+
+@keyframes toggleSmooth {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 
 .tg-active__container {
