@@ -5,7 +5,7 @@
 - [x] Responsive: Specialized for screens smaller than 500px & Mobile
 - [x] Statusbar: real-time function
 - [x] Features: Natural animation and page movement, Media query
-- [x] Click buttons!
+- [x] 100% Handmade Website
 
 ---
 
