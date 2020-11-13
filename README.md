@@ -15,8 +15,8 @@
 
 ### 1. 🛍 Shopping mall Website - HTML + CSS + JS
 
-- github: https://blackswan1989.github.io/portfolio/shopping-mall/index.html
-- URL: https://github.com/blackswan1989/portfolio/tree/master/shopping-mall
+- github: https://github.com/blackswan1989/portfolio/tree/master/shopping-mall
+- URL: https://blackswan1989.github.io/portfolio/shopping-mall/index.html
 
 ---
 
