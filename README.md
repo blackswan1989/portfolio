@@ -2,7 +2,7 @@
 
 🥳🥳 welcome HJ's portfolio page!
 
-- [x] HTML, CSS, Javascript
+- [x] HTML + CSS + JS
 - [x] Single page Website
 - [x] Responsive website
 
@@ -13,17 +13,17 @@
 
 # Projects URL
 
-### 1. 📺 YouTube Clone - Frontend + Backend (NodeJS, Pug, SCSS, Webpack...)
+### 1. 🛍 Shopping mall Website - HTML + CSS + JS
 
-- github: https://github.com/blackswan1989/youtube_clone
-- URL: https://quiet-waters-83386.herokuapp.com/
+- github: https://blackswan1989.github.io/portfolio/shopping-mall/index.html
+- URL: https://github.com/blackswan1989/portfolio/tree/master/shopping-mall
 
 ---
 
-### 2. 🖥 Momento Chrome extention - HTML + CSS + Vanilla JS
+### 2. ⌨️ Chat App - HTML + CSS
 
-- github: https://github.com/blackswan1989/javascript/tree/master/momento_chrome
-- URL: https://blackswan1989.github.io/javascript/momento_crome/index.html
+- github: https://github.com/blackswan1989/portfolio/tree/master/chat_app
+- URL: https://blackswan1989.github.io/portfolio/chat_app/index.html
 
 ---
 
@@ -34,22 +34,36 @@
 
 ---
 
-### 4. ⌨️ Chat App - HTML + CSS
+### 4. 🌆 Single Page Web Sites - HTML + CSS
 
-- github: https://github.com/blackswan1989/portfolio/tree/master/chat_app
-- URL: https://blackswan1989.github.io/portfolio/chat_app/index.html
+- Best Horror Scenes
+  - github: https://github.com/blackswan1989/portfolio/tree/master/single-page/best_horror_scenes
+  - URL: https://blackswan1989.github.io/portfolio/single-page/best_horror_scenes/index.html
 
 ---
 
-### 5. 🎬 Movie web app - React + JS + CSS
+### 5. 📺 YouTube Clone - Frontend + Backend (NodeJS, Pug, SCSS, Webpack...)
+
+- github: https://github.com/blackswan1989/youtube_clone
+- URL: https://quiet-waters-83386.herokuapp.com/
+
+---
+
+### 6. 🎬 Movie web app - React + JS + CSS
 
 - github: https://github.com/blackswan1989/react_movie_app_api
 - URL: https://blackswan1989.github.io/react_movie_app_api/#/
 
 ---
 
-### 6. 🌆 Single Page Web Sites - HTML + CSS
+### 7. 🖥 Momento Chrome extention - HTML + CSS + Vanilla JS
 
-- Best Horror Scenes
-  - github: https://github.com/blackswan1989/portfolio/tree/master/single-page/best_horror_scenes
-  - URL: https://blackswan1989.github.io/portfolio/single-page/best_horror_scenes/index.html
+- github: https://github.com/blackswan1989/javascript/tree/master/momento_chrome
+- URL: https://blackswan1989.github.io/javascript/momento_crome/index.html
+
+---
+
+### 8. 👩🏼‍🎤 Music Player Screen
+
+- github: https://github.com/blackswan1989/portfolio/tree/master/single-page/music-player
+- URL: https://blackswan1989.github.io/portfolio/single-page/music-player/index.html
