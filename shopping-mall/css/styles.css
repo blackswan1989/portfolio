@@ -48,6 +48,11 @@ body {
     --font-large: 18px;
   }
 
+  .header {
+    top: 0;
+    left: 0;
+  }
+
   .tg-active.toggle-active {
     width: 33.2%;
   }
@@ -60,6 +65,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 100vh;
+    margin-top: 40px;
   }
 
   .home__grid {
