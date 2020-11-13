@@ -1,5 +1,4 @@
-/* import의 순서도 중요함 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 @import "reset.css";
 @import "variables.css";
 
@@ -23,9 +22,8 @@
 }
 
 body {
-  font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  background-color:var(--main-light-green);
+  font-family: "Gugi", cursive;
+  background-color: var(--main-light-green);
   width: 100%;
   overflow-x: hidden;
   cursor: default;

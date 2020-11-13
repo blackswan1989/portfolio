@@ -5,7 +5,7 @@
   font-size: var(--font-micro);
   font-weight: var(--weight-regular);
   color: var(--title-white);
-  background-color:var(--main-light-green);
+  background-color: var(--main-light-green);
   cursor: pointer;
 }
 
@@ -15,7 +15,7 @@
   padding: 0px 3px;
 }
 
-.favorite-contact{
+.favorite-contact {
   margin: 10px 0px;
   padding: 10px 10px;
   color: var(--title-white);
@@ -26,14 +26,14 @@
   border-top-right-radius: 35px;
 }
 
-.favorite-contact__title{
+.favorite-contact__title {
   margin-left: 10px;
   margin-bottom: 20px;
   font-size: var(--font-small);
   font-weight: var(--weight-semi-bold);
 }
 
-.favorite-contact__container{
+.favorite-contact__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,38 +47,37 @@
   text-align: center;
 }
 
-.favorite-contact__container-column:hover{
+.favorite-contact__container-column:hover {
   transform: scale(1.1);
 }
 
-  .favorite-contact__container-column:hover img {
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
-    transform: scale(1.1);
-  }
+.favorite-contact__container-column:hover img {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
 
-.favorite-contact__container-column img{
-  margin:0;
-  width: 50px;
-  height: 50px;
+.favorite-contact__container-column img {
+  margin: 0;
+  width: 55px;
+  height: 55px;
   opacity: 1;
   border-radius: 10px;
   border: 2px solid var(--title-white);
 }
 
-.favorite-contact__container__subtitle{
-  font-size: var(  --font-tiny);
+.favorite-contact__container__subtitle {
+  font-size: var(--font-tiny);
   font-weight: var(--weight-regular);
   margin-top: 10px;
 }
 
-
 .user-component.friends {
- padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-.user-component.friends .user-component__column{
-  padding:0px 15px;
+.user-component.friends .user-component__column {
+  padding: 0px 15px;
 }
 
 .user-component.friends .user-component__avatar {
@@ -88,7 +87,6 @@
 .user-component.friends .user-component__title {
   font-size: var(--font-micro);
 }
-
 
 /* Splash screen */
 
@@ -109,7 +107,7 @@
   animation-delay: 0.5s;
 }
 
-.splash-screen  i {
+.splash-screen i {
   margin: 60px 20px;
 }
 
