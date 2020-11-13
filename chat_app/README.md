@@ -1,21 +1,21 @@
 # Chat APP
 
 - [x] Language: HTML + CSS
-- [x] Pages: Login, Freinds, Chats, Chatting, Search, More, Setting
-- [x] Responsive: Specialized for screens smaller than 500px
-- [x] Statusbar: real-time time function
-- [x] Feature: Natural animation and page movement
+- [x] Pages: Login-out, Freinds, Chats, Chatting, Search, More, Setting
+- [x] Responsive: Specialized for screens smaller than 500px & Mobile
+- [x] Statusbar: real-time function
+- [x] Features: Natural animation and page movement, Media query
 - [x] Click buttons!
 
 ---
 
 ### Photo
 
-![chatapp1](https://user-images.githubusercontent.com/67410919/98650667-935a0800-237c-11eb-900f-bdf962ae4b54.png)
+![chatapp1](https://user-images.githubusercontent.com/67410919/99017740-e8279980-259b-11eb-97f2-a3124b4a4e8c.png)
 
-![chatapp2](https://user-images.githubusercontent.com/67410919/98650688-97862580-237c-11eb-92c1-18e446f3aab0.png)
+![chatapp2](https://user-images.githubusercontent.com/67410919/99017750-ed84e400-259b-11eb-8e32-ae34dffa63f5.png)
 
-![chatapp3](https://user-images.githubusercontent.com/67410919/98650694-97862580-237c-11eb-9a46-ac4ee0986c39.png)
+![chatapp](https://user-images.githubusercontent.com/67410919/99017744-ec53b700-259b-11eb-8295-342738c968ac.png)
 
 ---
 
