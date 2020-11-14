@@ -1,9 +1,12 @@
-# PORTFOLIO 2020
+# PORTFOLIO 2020.11.13
 
 🥳🥳 welcome HJ's portfolio page!
 
 - [x] HTML + CSS + JS
 - [x] Single page Website
+- [x] Smooth scrolling between Nav menu moves
+- [x] Pojects Filtering
+- [x] Arrow up btn that appears when scrolling
 - [x] Medai Query: Websites that respond to most screen sizes
 
 # Photo
