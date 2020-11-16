@@ -78,7 +78,7 @@ const homeHeigt = homeOpacity.getBoundingClientRect().height;
 window.addEventListener("scroll", () => {
   // 1 - ( scrollY / 1080 )
   // console.log(1 - window.scrollY / homeHeigt);
-  homeOpacity.style.opacity = 3 - window.scrollY / homeHeigt;
+  homeOpacity.style.opacity = 1.35 - window.scrollY / homeHeigt;
 });
 
 // 6. Show "arrow up" button when scrolling down
