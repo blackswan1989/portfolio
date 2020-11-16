@@ -27,7 +27,7 @@ const navbarHeigt = navbar.getBoundingClientRect().height;
 
 function scrollIntoView(selector) {
   // scrollIntoView는 element자체에 있는 함수.
-  // https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
+  // selector만 사용하면 그 selector에 맞는 요소를 찾아 갈 수 있도록 설정.
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({ behavior: "smooth" });
 }
@@ -72,7 +72,7 @@ homeContactMeBtn.addEventListener("click", () => {
 });
 
 // 5. Make home slowly fade to trasnparent as the window scrolls down.
-const homeOpacity = document.querySelector(".home__container");
+const homeOpacity = document.querySelector("#home");
 const homeHeigt = homeOpacity.getBoundingClientRect().height;
 
 window.addEventListener("scroll", () => {
@@ -132,3 +132,10 @@ workCategories.addEventListener("click", (event) => {
     }
   });
 });
+
+/* 참조 사이트
+
+1.scrollIntoView
+https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
+  
+  */
