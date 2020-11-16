@@ -26,6 +26,8 @@ const navbar = document.querySelector("#navbar");
 const navbarHeigt = navbar.getBoundingClientRect().height;
 
 function scrollIntoView(selector) {
+  // scrollIntoView는 element자체에 있는 함수.
+  // https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({ behavior: "smooth" });
 }
@@ -44,10 +46,11 @@ window.addEventListener("scroll", () => {
 const navbarMenu = document.querySelector(".navbar__menu");
 
 navbarMenu.addEventListener("click", (event) => {
+  // console.log(event.target.dataset.link);
   const target = event.target;
   const link = target.dataset.link || target.parentNode.dataset.link; // 클릭한 data-link를 link로 정의
   if (link == null) {
-    return;
+    return; // navbar에서 id 클릭 외엔 아무것도 반환해주지 않도록함.
   }
   navbarMenu.classList.remove("toggle-active");
   // console.log(event.target.dataset.link);
