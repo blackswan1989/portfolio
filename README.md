@@ -37,7 +37,7 @@
 ### 4. 🌆 Single Page Web Sites - HTML + CSS
 
 - Best Horror Scenes
-  - github: https://github.com/blackswan1989/portfolio/tree/master/single-page/best_horror_scenes
+  - github: https://github.com/blackswan1989/portfolio/tree/master/single-page
   - URL: https://blackswan1989.github.io/portfolio/single-page/best_horror_scenes/index.html
 
 ---
