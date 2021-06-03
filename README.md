@@ -6,7 +6,6 @@
 - [x] Single page Website
 - [x] Responsive website
 
-- github: https://github.com/blackswan1989/portfolio
 - URL: https://blackswan1989.github.io/portfolio/portfolio_v1/
 
 ---
