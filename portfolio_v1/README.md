@@ -1,4 +1,4 @@
-# PORTFOLIO 2020.11.13
+# PORTFOLIO
 
 🥳🥳 welcome HJ's portfolio page!
 
